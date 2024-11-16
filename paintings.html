@@ -1,0 +1,3571 @@
+<!DOCTYPE html>
+<!-- saved from url=(0049)paintings.html -->
+<html
+  lang="en"
+  xml:lang="en"
+  xmlns="http://www.w3.org/1999/xhtml"
+  class="webkit safari safari13 mobile iphone js"
+  data-lt-installed="true"
+>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <!--[if lt IE 9]>
+      <script src="https://bucket1.format-assets.com/theme_versions/8192484/assets/javascripts/html5shiv.js"></script>
+    <![endif]-->
+
+    <script type="text/javascript" src="./paintings_files/dcbde81dc9.js"></script>
+    <script src="./paintings_files/nr-1216.min.js"></script>
+    <script async="" src="./paintings_files/ga.js"></script>
+
+    <link rel="stylesheet" href="css/ionicons.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <script type="text/javascript">
+      window.NREUM || (NREUM = {});
+      NREUM.info = {
+        beacon: "bam-cell.nr-data.net",
+        errorBeacon: "bam-cell.nr-data.net",
+        licenseKey: "dcbde81dc9",
+        applicationID: "77525617",
+        transactionName: "IlsMTEJWDl4ERBZIEwNYC1sfSgpdFg==",
+        queueTime: 1,
+        applicationTime: 219,
+        agent: "",
+      };
+    </script>
+    <script type="text/javascript">
+      (window.NREUM || (NREUM = {})).init = {
+        ajax: { deny_list: ["bam-cell.nr-data.net"] },
+      };
+      (window.NREUM || (NREUM = {})).loader_config = {
+        xpid: "VQAAUVBXChAHU1RQAgcGUQ==",
+        licenseKey: "dcbde81dc9",
+        applicationID: "77525617",
+      };
+      window.NREUM || (NREUM = {}),
+        (__nr_require = (function (t, e, n) {
+          function r(n) {
+            if (!e[n]) {
+              var i = (e[n] = { exports: {} });
+              t[n][0].call(
+                i.exports,
+                function (e) {
+                  var i = t[n][1][e];
+                  return r(i || e);
+                },
+                i,
+                i.exports
+              );
+            }
+            return e[n].exports;
+          }
+          if ("function" == typeof __nr_require) return __nr_require;
+          for (var i = 0; i < n.length; i++) r(n[i]);
+          return r;
+        })(
+          {
+            1: [
+              function (t, e, n) {
+                function r(t) {
+                  try {
+                    s.console && console.log(t);
+                  } catch (e) {}
+                }
+                var i,
+                  o = t("ee"),
+                  a = t(27),
+                  s = {};
+                try {
+                  (i = localStorage.getItem("__nr_flags").split(",")),
+                    console &&
+                      "function" == typeof console.log &&
+                      ((s.console = !0),
+                      i.indexOf("dev") !== -1 && (s.dev = !0),
+                      i.indexOf("nr_dev") !== -1 && (s.nrDev = !0));
+                } catch (c) {}
+                s.nrDev &&
+                  o.on("internal-error", function (t) {
+                    r(t.stack);
+                  }),
+                  s.dev &&
+                    o.on("fn-err", function (t, e, n) {
+                      r(n.stack);
+                    }),
+                  s.dev &&
+                    (r("NR AGENT IN DEVELOPMENT MODE"),
+                    r(
+                      "flags: " +
+                        a(s, function (t, e) {
+                          return t;
+                        }).join(", ")
+                    ));
+              },
+              {},
+            ],
+            2: [
+              function (t, e, n) {
+                function r(t, e, n, r, s) {
+                  try {
+                    p ? (p -= 1) : i(s || new UncaughtException(t, e, n), !0);
+                  } catch (f) {
+                    try {
+                      o("ierr", [f, c.now(), !0]);
+                    } catch (d) {}
+                  }
+                  return "function" == typeof u && u.apply(this, a(arguments));
+                }
+                function UncaughtException(t, e, n) {
+                  (this.message =
+                    t || "Uncaught error with no additional information"),
+                    (this.sourceURL = e),
+                    (this.line = n);
+                }
+                function i(t, e) {
+                  var n = e ? null : c.now();
+                  o("err", [t, n]);
+                }
+                var o = t("handle"),
+                  a = t(28),
+                  s = t("ee"),
+                  c = t("loader"),
+                  f = t("gos"),
+                  u = window.onerror,
+                  d = !1,
+                  l = "nr@seenError";
+                if (!c.disabled) {
+                  var p = 0;
+                  (c.features.err = !0), t(1), (window.onerror = r);
+                  try {
+                    throw new Error();
+                  } catch (h) {
+                    "stack" in h &&
+                      (t(10),
+                      t(9),
+                      "addEventListener" in window && t(6),
+                      c.xhrWrappable && t(11),
+                      (d = !0));
+                  }
+                  s.on("fn-start", function (t, e, n) {
+                    d && (p += 1);
+                  }),
+                    s.on("fn-err", function (t, e, n) {
+                      d &&
+                        !n[l] &&
+                        (f(n, l, function () {
+                          return !0;
+                        }),
+                        (this.thrown = !0),
+                        i(n));
+                    }),
+                    s.on("fn-end", function () {
+                      d && !this.thrown && p > 0 && (p -= 1);
+                    }),
+                    s.on("internal-error", function (t) {
+                      o("ierr", [t, c.now(), !0]);
+                    });
+                }
+              },
+              {},
+            ],
+            3: [
+              function (t, e, n) {
+                var r = t("loader");
+                r.disabled || (r.features.ins = !0);
+              },
+              {},
+            ],
+            4: [
+              function (t, e, n) {
+                function r() {
+                  var t = new PerformanceObserver(function (t, e) {
+                    var n = t.getEntries();
+                    s(v, [n]);
+                  });
+                  try {
+                    t.observe({ entryTypes: ["resource"] });
+                  } catch (e) {}
+                }
+                function i(t) {
+                  if (
+                    (s(v, [window.performance.getEntriesByType(w)]),
+                    window.performance["c" + l])
+                  )
+                    try {
+                      window.performance[h](m, i, !1);
+                    } catch (t) {}
+                  else
+                    try {
+                      window.performance[h]("webkit" + m, i, !1);
+                    } catch (t) {}
+                }
+                function o(t) {}
+                if (
+                  window.performance &&
+                  window.performance.timing &&
+                  window.performance.getEntriesByType
+                ) {
+                  var a = t("ee"),
+                    s = t("handle"),
+                    c = t(10),
+                    f = t(9),
+                    u = t(5),
+                    d = t(19),
+                    l = "learResourceTimings",
+                    p = "addEventListener",
+                    h = "removeEventListener",
+                    m = "resourcetimingbufferfull",
+                    v = "bstResource",
+                    w = "resource",
+                    g = "-start",
+                    y = "-end",
+                    x = "fn" + g,
+                    b = "fn" + y,
+                    E = "bstTimer",
+                    R = "pushState",
+                    S = t("loader");
+                  if (!S.disabled) {
+                    (S.features.stn = !0),
+                      t(8),
+                      "addEventListener" in window && t(6);
+                    var O = NREUM.o.EV;
+                    a.on(x, function (t, e) {
+                      var n = t[0];
+                      n instanceof O && (this.bstStart = S.now());
+                    }),
+                      a.on(b, function (t, e) {
+                        var n = t[0];
+                        n instanceof O &&
+                          s("bst", [n, e, this.bstStart, S.now()]);
+                      }),
+                      c.on(x, function (t, e, n) {
+                        (this.bstStart = S.now()), (this.bstType = n);
+                      }),
+                      c.on(b, function (t, e) {
+                        s(E, [e, this.bstStart, S.now(), this.bstType]);
+                      }),
+                      f.on(x, function () {
+                        this.bstStart = S.now();
+                      }),
+                      f.on(b, function (t, e) {
+                        s(E, [
+                          e,
+                          this.bstStart,
+                          S.now(),
+                          "requestAnimationFrame",
+                        ]);
+                      }),
+                      a.on(R + g, function (t) {
+                        (this.time = S.now()),
+                          (this.startPath = location.pathname + location.hash);
+                      }),
+                      a.on(R + y, function (t) {
+                        s("bstHist", [
+                          location.pathname + location.hash,
+                          this.startPath,
+                          this.time,
+                        ]);
+                      }),
+                      u()
+                        ? (s(v, [
+                            window.performance.getEntriesByType("resource"),
+                          ]),
+                          r())
+                        : p in window.performance &&
+                          (window.performance["c" + l]
+                            ? window.performance[p](m, i, d(!1))
+                            : window.performance[p]("webkit" + m, i, d(!1))),
+                      document[p]("scroll", o, d(!1)),
+                      document[p]("keypress", o, d(!1)),
+                      document[p]("click", o, d(!1));
+                  }
+                }
+              },
+              {},
+            ],
+            5: [
+              function (t, e, n) {
+                e.exports = function () {
+                  return (
+                    "PerformanceObserver" in window &&
+                    "function" == typeof window.PerformanceObserver
+                  );
+                };
+              },
+              {},
+            ],
+            6: [
+              function (t, e, n) {
+                function r(t) {
+                  for (var e = t; e && !e.hasOwnProperty(u); )
+                    e = Object.getPrototypeOf(e);
+                  e && i(e);
+                }
+                function i(t) {
+                  s.inPlace(t, [u, d], "-", o);
+                }
+                function o(t, e) {
+                  return t[1];
+                }
+                var a = t("ee").get("events"),
+                  s = t("wrap-function")(a, !0),
+                  c = t("gos"),
+                  f = XMLHttpRequest,
+                  u = "addEventListener",
+                  d = "removeEventListener";
+                (e.exports = a),
+                  "getPrototypeOf" in Object
+                    ? (r(document), r(window), r(f.prototype))
+                    : f.prototype.hasOwnProperty(u) &&
+                      (i(window), i(f.prototype)),
+                  a.on(u + "-start", function (t, e) {
+                    var n = t[1];
+                    if (
+                      null !== n &&
+                      ("function" == typeof n || "object" == typeof n)
+                    ) {
+                      var r = c(n, "nr@wrapped", function () {
+                        function t() {
+                          if ("function" == typeof n.handleEvent)
+                            return n.handleEvent.apply(n, arguments);
+                        }
+                        var e = { object: t, function: n }[typeof n];
+                        return e ? s(e, "fn-", null, e.name || "anonymous") : n;
+                      });
+                      this.wrapped = t[1] = r;
+                    }
+                  }),
+                  a.on(d + "-start", function (t) {
+                    t[1] = this.wrapped || t[1];
+                  });
+              },
+              {},
+            ],
+            7: [
+              function (t, e, n) {
+                function r(t, e, n) {
+                  var r = t[e];
+                  "function" == typeof r &&
+                    (t[e] = function () {
+                      var t = o(arguments),
+                        e = {};
+                      i.emit(n + "before-start", [t], e);
+                      var a;
+                      e[m] && e[m].dt && (a = e[m].dt);
+                      var s = r.apply(this, t);
+                      return (
+                        i.emit(n + "start", [t, a], s),
+                        s.then(
+                          function (t) {
+                            return i.emit(n + "end", [null, t], s), t;
+                          },
+                          function (t) {
+                            throw (i.emit(n + "end", [t], s), t);
+                          }
+                        )
+                      );
+                    });
+                }
+                var i = t("ee").get("fetch"),
+                  o = t(28),
+                  a = t(27);
+                e.exports = i;
+                var s = window,
+                  c = "fetch-",
+                  f = c + "body-",
+                  u = ["arrayBuffer", "blob", "json", "text", "formData"],
+                  d = s.Request,
+                  l = s.Response,
+                  p = s.fetch,
+                  h = "prototype",
+                  m = "nr@context";
+                d &&
+                  l &&
+                  p &&
+                  (a(u, function (t, e) {
+                    r(d[h], e, f), r(l[h], e, f);
+                  }),
+                  r(s, "fetch", c),
+                  i.on(c + "end", function (t, e) {
+                    var n = this;
+                    if (e) {
+                      var r = e.headers.get("content-length");
+                      null !== r && (n.rxSize = r),
+                        i.emit(c + "done", [null, e], n);
+                    } else i.emit(c + "done", [t], n);
+                  }));
+              },
+              {},
+            ],
+            8: [
+              function (t, e, n) {
+                var r = t("ee").get("history"),
+                  i = t("wrap-function")(r);
+                e.exports = r;
+                var o =
+                    window.history &&
+                    window.history.constructor &&
+                    window.history.constructor.prototype,
+                  a = window.history;
+                o && o.pushState && o.replaceState && (a = o),
+                  i.inPlace(a, ["pushState", "replaceState"], "-");
+              },
+              {},
+            ],
+            9: [
+              function (t, e, n) {
+                var r = t("ee").get("raf"),
+                  i = t("wrap-function")(r),
+                  o = "equestAnimationFrame";
+                (e.exports = r),
+                  i.inPlace(
+                    window,
+                    ["r" + o, "mozR" + o, "webkitR" + o, "msR" + o],
+                    "raf-"
+                  ),
+                  r.on("raf-start", function (t) {
+                    t[0] = i(t[0], "fn-");
+                  });
+              },
+              {},
+            ],
+            10: [
+              function (t, e, n) {
+                function r(t, e, n) {
+                  t[0] = a(t[0], "fn-", null, n);
+                }
+                function i(t, e, n) {
+                  (this.method = n),
+                    (this.timerDuration = isNaN(t[1]) ? 0 : +t[1]),
+                    (t[0] = a(t[0], "fn-", this, n));
+                }
+                var o = t("ee").get("timer"),
+                  a = t("wrap-function")(o),
+                  s = "setTimeout",
+                  c = "setInterval",
+                  f = "clearTimeout",
+                  u = "-start",
+                  d = "-";
+                (e.exports = o),
+                  a.inPlace(window, [s, "setImmediate"], s + d),
+                  a.inPlace(window, [c], c + d),
+                  a.inPlace(window, [f, "clearImmediate"], f + d),
+                  o.on(c + u, r),
+                  o.on(s + u, i);
+              },
+              {},
+            ],
+            11: [
+              function (t, e, n) {
+                function r(t, e) {
+                  d.inPlace(e, ["onreadystatechange"], "fn-", s);
+                }
+                function i() {
+                  var t = this,
+                    e = u.context(t);
+                  t.readyState > 3 &&
+                    !e.resolved &&
+                    ((e.resolved = !0), u.emit("xhr-resolved", [], t)),
+                    d.inPlace(t, y, "fn-", s);
+                }
+                function o(t) {
+                  x.push(t),
+                    m && (E ? E.then(a) : w ? w(a) : ((R = -R), (S.data = R)));
+                }
+                function a() {
+                  for (var t = 0; t < x.length; t++) r([], x[t]);
+                  x.length && (x = []);
+                }
+                function s(t, e) {
+                  return e;
+                }
+                function c(t, e) {
+                  for (var n in t) e[n] = t[n];
+                  return e;
+                }
+                t(6);
+                var f = t("ee"),
+                  u = f.get("xhr"),
+                  d = t("wrap-function")(u),
+                  l = t(19),
+                  p = NREUM.o,
+                  h = p.XHR,
+                  m = p.MO,
+                  v = p.PR,
+                  w = p.SI,
+                  g = "readystatechange",
+                  y = [
+                    "onload",
+                    "onerror",
+                    "onabort",
+                    "onloadstart",
+                    "onloadend",
+                    "onprogress",
+                    "ontimeout",
+                  ],
+                  x = [];
+                e.exports = u;
+                var b = (window.XMLHttpRequest = function (t) {
+                  var e = new h(t);
+                  try {
+                    u.emit("new-xhr", [e], e), e.addEventListener(g, i, l(!1));
+                  } catch (n) {
+                    try {
+                      u.emit("internal-error", [n]);
+                    } catch (r) {}
+                  }
+                  return e;
+                });
+                if (
+                  (c(h, b),
+                  (b.prototype = h.prototype),
+                  d.inPlace(b.prototype, ["open", "send"], "-xhr-", s),
+                  u.on("send-xhr-start", function (t, e) {
+                    r(t, e), o(e);
+                  }),
+                  u.on("open-xhr-start", r),
+                  m)
+                ) {
+                  var E = v && v.resolve();
+                  if (!w && !v) {
+                    var R = 1,
+                      S = document.createTextNode(R);
+                    new m(a).observe(S, { characterData: !0 });
+                  }
+                } else
+                  f.on("fn-end", function (t) {
+                    (t[0] && t[0].type === g) || a();
+                  });
+              },
+              {},
+            ],
+            12: [
+              function (t, e, n) {
+                function r(t) {
+                  if (!s(t)) return null;
+                  var e = window.NREUM;
+                  if (!e.loader_config) return null;
+                  var n = (e.loader_config.accountID || "").toString() || null,
+                    r = (e.loader_config.agentID || "").toString() || null,
+                    f = (e.loader_config.trustKey || "").toString() || null;
+                  if (!n || !r) return null;
+                  var h = p.generateSpanId(),
+                    m = p.generateTraceId(),
+                    v = Date.now(),
+                    w = { spanId: h, traceId: m, timestamp: v };
+                  return (
+                    (t.sameOrigin || (c(t) && l())) &&
+                      ((w.traceContextParentHeader = i(h, m)),
+                      (w.traceContextStateHeader = o(h, v, n, r, f))),
+                    ((t.sameOrigin && !u()) ||
+                      (!t.sameOrigin && c(t) && d())) &&
+                      (w.newrelicHeader = a(h, m, v, n, r, f)),
+                    w
+                  );
+                }
+                function i(t, e) {
+                  return "00-" + e + "-" + t + "-01";
+                }
+                function o(t, e, n, r, i) {
+                  var o = 0,
+                    a = "",
+                    s = 1,
+                    c = "",
+                    f = "";
+                  return (
+                    i +
+                    "@nr=" +
+                    o +
+                    "-" +
+                    s +
+                    "-" +
+                    n +
+                    "-" +
+                    r +
+                    "-" +
+                    t +
+                    "-" +
+                    a +
+                    "-" +
+                    c +
+                    "-" +
+                    f +
+                    "-" +
+                    e
+                  );
+                }
+                function a(t, e, n, r, i, o) {
+                  var a = "btoa" in window && "function" == typeof window.btoa;
+                  if (!a) return null;
+                  var s = {
+                    v: [0, 1],
+                    d: { ty: "Browser", ac: r, ap: i, id: t, tr: e, ti: n },
+                  };
+                  return o && r !== o && (s.d.tk = o), btoa(JSON.stringify(s));
+                }
+                function s(t) {
+                  return f() && c(t);
+                }
+                function c(t) {
+                  var e = !1,
+                    n = {};
+                  if (
+                    ("init" in NREUM &&
+                      "distributed_tracing" in NREUM.init &&
+                      (n = NREUM.init.distributed_tracing),
+                    t.sameOrigin)
+                  )
+                    e = !0;
+                  else if (n.allowed_origins instanceof Array)
+                    for (var r = 0; r < n.allowed_origins.length; r++) {
+                      var i = h(n.allowed_origins[r]);
+                      if (
+                        t.hostname === i.hostname &&
+                        t.protocol === i.protocol &&
+                        t.port === i.port
+                      ) {
+                        e = !0;
+                        break;
+                      }
+                    }
+                  return e;
+                }
+                function f() {
+                  return (
+                    "init" in NREUM &&
+                    "distributed_tracing" in NREUM.init &&
+                    !!NREUM.init.distributed_tracing.enabled
+                  );
+                }
+                function u() {
+                  return (
+                    "init" in NREUM &&
+                    "distributed_tracing" in NREUM.init &&
+                    !!NREUM.init.distributed_tracing.exclude_newrelic_header
+                  );
+                }
+                function d() {
+                  return (
+                    "init" in NREUM &&
+                    "distributed_tracing" in NREUM.init &&
+                    NREUM.init.distributed_tracing.cors_use_newrelic_header !==
+                      !1
+                  );
+                }
+                function l() {
+                  return (
+                    "init" in NREUM &&
+                    "distributed_tracing" in NREUM.init &&
+                    !!NREUM.init.distributed_tracing
+                      .cors_use_tracecontext_headers
+                  );
+                }
+                var p = t(24),
+                  h = t(14);
+                e.exports = { generateTracePayload: r, shouldGenerateTrace: s };
+              },
+              {},
+            ],
+            13: [
+              function (t, e, n) {
+                function r(t) {
+                  var e = this.params,
+                    n = this.metrics;
+                  if (!this.ended) {
+                    this.ended = !0;
+                    for (var r = 0; r < l; r++)
+                      t.removeEventListener(d[r], this.listener, !1);
+                    return e.protocol && "data" === e.protocol
+                      ? void g("Ajax/DataUrl/Excluded")
+                      : void (
+                          e.aborted ||
+                          ((n.duration = a.now() - this.startTime),
+                          this.loadCaptureCalled || 4 !== t.readyState
+                            ? null == e.status && (e.status = 0)
+                            : o(this, t),
+                          (n.cbTime = this.cbTime),
+                          s(
+                            "xhr",
+                            [e, n, this.startTime, this.endTime, "xhr"],
+                            this
+                          ))
+                        );
+                  }
+                }
+                function i(t, e) {
+                  var n = c(e),
+                    r = t.params;
+                  (r.hostname = n.hostname),
+                    (r.port = n.port),
+                    (r.protocol = n.protocol),
+                    (r.host = n.hostname + ":" + n.port),
+                    (r.pathname = n.pathname),
+                    (t.parsedOrigin = n),
+                    (t.sameOrigin = n.sameOrigin);
+                }
+                function o(t, e) {
+                  t.params.status = e.status;
+                  var n = v(e, t.lastSize);
+                  if ((n && (t.metrics.rxSize = n), t.sameOrigin)) {
+                    var r = e.getResponseHeader("X-NewRelic-App-Data");
+                    r && (t.params.cat = r.split(", ").pop());
+                  }
+                  t.loadCaptureCalled = !0;
+                }
+                var a = t("loader");
+                if (a.xhrWrappable && !a.disabled) {
+                  var s = t("handle"),
+                    c = t(14),
+                    f = t(12).generateTracePayload,
+                    u = t("ee"),
+                    d = ["load", "error", "abort", "timeout"],
+                    l = d.length,
+                    p = t("id"),
+                    h = t(20),
+                    m = t(18),
+                    v = t(15),
+                    w = t(19),
+                    g = t(21).recordSupportability,
+                    y = NREUM.o.REQ,
+                    x = window.XMLHttpRequest;
+                  (a.features.xhr = !0),
+                    t(11),
+                    t(7),
+                    u.on("new-xhr", function (t) {
+                      var e = this;
+                      (e.totalCbs = 0),
+                        (e.called = 0),
+                        (e.cbTime = 0),
+                        (e.end = r),
+                        (e.ended = !1),
+                        (e.xhrGuids = {}),
+                        (e.lastSize = null),
+                        (e.loadCaptureCalled = !1),
+                        (e.params = this.params || {}),
+                        (e.metrics = this.metrics || {}),
+                        t.addEventListener(
+                          "load",
+                          function (n) {
+                            o(e, t);
+                          },
+                          w(!1)
+                        ),
+                        (h && (h > 34 || h < 10)) ||
+                          t.addEventListener(
+                            "progress",
+                            function (t) {
+                              e.lastSize = t.loaded;
+                            },
+                            w(!1)
+                          );
+                    }),
+                    u.on("open-xhr-start", function (t) {
+                      (this.params = { method: t[0] }),
+                        i(this, t[1]),
+                        (this.metrics = {});
+                    }),
+                    u.on("open-xhr-end", function (t, e) {
+                      "loader_config" in NREUM &&
+                        "xpid" in NREUM.loader_config &&
+                        this.sameOrigin &&
+                        e.setRequestHeader(
+                          "X-NewRelic-ID",
+                          NREUM.loader_config.xpid
+                        );
+                      var n = f(this.parsedOrigin);
+                      if (n) {
+                        var r = !1;
+                        n.newrelicHeader &&
+                          (e.setRequestHeader("newrelic", n.newrelicHeader),
+                          (r = !0)),
+                          n.traceContextParentHeader &&
+                            (e.setRequestHeader(
+                              "traceparent",
+                              n.traceContextParentHeader
+                            ),
+                            n.traceContextStateHeader &&
+                              e.setRequestHeader(
+                                "tracestate",
+                                n.traceContextStateHeader
+                              ),
+                            (r = !0)),
+                          r && (this.dt = n);
+                      }
+                    }),
+                    u.on("send-xhr-start", function (t, e) {
+                      var n = this.metrics,
+                        r = t[0],
+                        i = this;
+                      if (n && r) {
+                        var o = m(r);
+                        o && (n.txSize = o);
+                      }
+                      (this.startTime = a.now()),
+                        (this.listener = function (t) {
+                          try {
+                            "abort" !== t.type ||
+                              i.loadCaptureCalled ||
+                              (i.params.aborted = !0),
+                              ("load" !== t.type ||
+                                (i.called === i.totalCbs &&
+                                  (i.onloadCalled ||
+                                    "function" != typeof e.onload))) &&
+                                i.end(e);
+                          } catch (n) {
+                            try {
+                              u.emit("internal-error", [n]);
+                            } catch (r) {}
+                          }
+                        });
+                      for (var s = 0; s < l; s++)
+                        e.addEventListener(d[s], this.listener, w(!1));
+                    }),
+                    u.on("xhr-cb-time", function (t, e, n) {
+                      (this.cbTime += t),
+                        e ? (this.onloadCalled = !0) : (this.called += 1),
+                        this.called !== this.totalCbs ||
+                          (!this.onloadCalled &&
+                            "function" == typeof n.onload) ||
+                          this.end(n);
+                    }),
+                    u.on("xhr-load-added", function (t, e) {
+                      var n = "" + p(t) + !!e;
+                      this.xhrGuids &&
+                        !this.xhrGuids[n] &&
+                        ((this.xhrGuids[n] = !0), (this.totalCbs += 1));
+                    }),
+                    u.on("xhr-load-removed", function (t, e) {
+                      var n = "" + p(t) + !!e;
+                      this.xhrGuids &&
+                        this.xhrGuids[n] &&
+                        (delete this.xhrGuids[n], (this.totalCbs -= 1));
+                    }),
+                    u.on("xhr-resolved", function () {
+                      this.endTime = a.now();
+                    }),
+                    u.on("addEventListener-end", function (t, e) {
+                      e instanceof x &&
+                        "load" === t[0] &&
+                        u.emit("xhr-load-added", [t[1], t[2]], e);
+                    }),
+                    u.on("removeEventListener-end", function (t, e) {
+                      e instanceof x &&
+                        "load" === t[0] &&
+                        u.emit("xhr-load-removed", [t[1], t[2]], e);
+                    }),
+                    u.on("fn-start", function (t, e, n) {
+                      e instanceof x &&
+                        ("onload" === n && (this.onload = !0),
+                        ("load" === (t[0] && t[0].type) || this.onload) &&
+                          (this.xhrCbStart = a.now()));
+                    }),
+                    u.on("fn-end", function (t, e) {
+                      this.xhrCbStart &&
+                        u.emit(
+                          "xhr-cb-time",
+                          [a.now() - this.xhrCbStart, this.onload, e],
+                          e
+                        );
+                    }),
+                    u.on("fetch-before-start", function (t) {
+                      function e(t, e) {
+                        var n = !1;
+                        return (
+                          e.newrelicHeader &&
+                            (t.set("newrelic", e.newrelicHeader), (n = !0)),
+                          e.traceContextParentHeader &&
+                            (t.set("traceparent", e.traceContextParentHeader),
+                            e.traceContextStateHeader &&
+                              t.set("tracestate", e.traceContextStateHeader),
+                            (n = !0)),
+                          n
+                        );
+                      }
+                      var n,
+                        r = t[1] || {};
+                      "string" == typeof t[0]
+                        ? (n = t[0])
+                        : t[0] && t[0].url
+                        ? (n = t[0].url)
+                        : window.URL &&
+                          t[0] &&
+                          t[0] instanceof URL &&
+                          (n = t[0].href),
+                        n &&
+                          ((this.parsedOrigin = c(n)),
+                          (this.sameOrigin = this.parsedOrigin.sameOrigin));
+                      var i = f(this.parsedOrigin);
+                      if (i && (i.newrelicHeader || i.traceContextParentHeader))
+                        if (
+                          "string" == typeof t[0] ||
+                          (window.URL && t[0] && t[0] instanceof URL)
+                        ) {
+                          var o = {};
+                          for (var a in r) o[a] = r[a];
+                          (o.headers = new Headers(r.headers || {})),
+                            e(o.headers, i) && (this.dt = i),
+                            t.length > 1 ? (t[1] = o) : t.push(o);
+                        } else
+                          t[0] &&
+                            t[0].headers &&
+                            e(t[0].headers, i) &&
+                            (this.dt = i);
+                    }),
+                    u.on("fetch-start", function (t, e) {
+                      (this.params = {}),
+                        (this.metrics = {}),
+                        (this.startTime = a.now()),
+                        (this.dt = e),
+                        t.length >= 1 && (this.target = t[0]),
+                        t.length >= 2 && (this.opts = t[1]);
+                      var n,
+                        r = this.opts || {},
+                        o = this.target;
+                      if (
+                        ("string" == typeof o
+                          ? (n = o)
+                          : "object" == typeof o && o instanceof y
+                          ? (n = o.url)
+                          : window.URL &&
+                            "object" == typeof o &&
+                            o instanceof URL &&
+                            (n = o.href),
+                        i(this, n),
+                        "data" !== this.params.protocol)
+                      ) {
+                        var s = (
+                          "" +
+                          ((o && o instanceof y && o.method) ||
+                            r.method ||
+                            "GET")
+                        ).toUpperCase();
+                        (this.params.method = s),
+                          (this.txSize = m(r.body) || 0);
+                      }
+                    }),
+                    u.on("fetch-done", function (t, e) {
+                      if (
+                        ((this.endTime = a.now()),
+                        this.params || (this.params = {}),
+                        "data" === this.params.protocol)
+                      )
+                        return void g("Ajax/DataUrl/Excluded");
+                      this.params.status = e ? e.status : 0;
+                      var n;
+                      "string" == typeof this.rxSize &&
+                        this.rxSize.length > 0 &&
+                        (n = +this.rxSize);
+                      var r = {
+                        txSize: this.txSize,
+                        rxSize: n,
+                        duration: a.now() - this.startTime,
+                      };
+                      s(
+                        "xhr",
+                        [this.params, r, this.startTime, this.endTime, "fetch"],
+                        this
+                      );
+                    });
+                }
+              },
+              {},
+            ],
+            14: [
+              function (t, e, n) {
+                var r = {};
+                e.exports = function (t) {
+                  if (t in r) return r[t];
+                  if (0 === (t || "").indexOf("data:"))
+                    return { protocol: "data" };
+                  var e = document.createElement("a"),
+                    n = window.location,
+                    i = {};
+                  (e.href = t), (i.port = e.port);
+                  var o = e.href.split("://");
+                  !i.port &&
+                    o[1] &&
+                    (i.port = o[1]
+                      .split("/")[0]
+                      .split("@")
+                      .pop()
+                      .split(":")[1]),
+                    (i.port && "0" !== i.port) ||
+                      (i.port = "https" === o[0] ? "443" : "80"),
+                    (i.hostname = e.hostname || n.hostname),
+                    (i.pathname = e.pathname),
+                    (i.protocol = o[0]),
+                    "/" !== i.pathname.charAt(0) &&
+                      (i.pathname = "/" + i.pathname);
+                  var a =
+                      !e.protocol ||
+                      ":" === e.protocol ||
+                      e.protocol === n.protocol,
+                    s = e.hostname === document.domain && e.port === n.port;
+                  return (
+                    (i.sameOrigin = a && (!e.hostname || s)),
+                    "/" === i.pathname && (r[t] = i),
+                    i
+                  );
+                };
+              },
+              {},
+            ],
+            15: [
+              function (t, e, n) {
+                function r(t, e) {
+                  var n = t.responseType;
+                  return "json" === n && null !== e
+                    ? e
+                    : "arraybuffer" === n || "blob" === n || "json" === n
+                    ? i(t.response)
+                    : "text" === n || "" === n || void 0 === n
+                    ? i(t.responseText)
+                    : void 0;
+                }
+                var i = t(18);
+                e.exports = r;
+              },
+              {},
+            ],
+            16: [
+              function (t, e, n) {
+                function r() {}
+                function i(t, e, n, r) {
+                  return function () {
+                    return (
+                      u.recordSupportability("API/" + e + "/called"),
+                      o(
+                        t + e,
+                        [f.now()].concat(s(arguments)),
+                        n ? null : this,
+                        r
+                      ),
+                      n ? void 0 : this
+                    );
+                  };
+                }
+                var o = t("handle"),
+                  a = t(27),
+                  s = t(28),
+                  c = t("ee").get("tracer"),
+                  f = t("loader"),
+                  u = t(21),
+                  d = NREUM;
+                "undefined" == typeof window.newrelic && (newrelic = d);
+                var l = [
+                    "setPageViewName",
+                    "setCustomAttribute",
+                    "setErrorHandler",
+                    "finished",
+                    "addToTrace",
+                    "inlineHit",
+                    "addRelease",
+                  ],
+                  p = "api-",
+                  h = p + "ixn-";
+                a(l, function (t, e) {
+                  d[e] = i(p, e, !0, "api");
+                }),
+                  (d.addPageAction = i(p, "addPageAction", !0)),
+                  (d.setCurrentRouteName = i(p, "routeName", !0)),
+                  (e.exports = newrelic),
+                  (d.interaction = function () {
+                    return new r().get();
+                  });
+                var m = (r.prototype = {
+                  createTracer: function (t, e) {
+                    var n = {},
+                      r = this,
+                      i = "function" == typeof e;
+                    return (
+                      o(h + "tracer", [f.now(), t, n], r),
+                      function () {
+                        if (
+                          (c.emit(
+                            (i ? "" : "no-") + "fn-start",
+                            [f.now(), r, i],
+                            n
+                          ),
+                          i)
+                        )
+                          try {
+                            return e.apply(this, arguments);
+                          } catch (t) {
+                            throw (
+                              (c.emit("fn-err", [arguments, this, t], n), t)
+                            );
+                          } finally {
+                            c.emit("fn-end", [f.now()], n);
+                          }
+                      }
+                    );
+                  },
+                });
+                a(
+                  "actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(
+                    ","
+                  ),
+                  function (t, e) {
+                    m[e] = i(h, e);
+                  }
+                ),
+                  (newrelic.noticeError = function (t, e) {
+                    "string" == typeof t && (t = new Error(t)),
+                      u.recordSupportability("API/noticeError/called"),
+                      o("err", [t, f.now(), !1, e]);
+                  });
+              },
+              {},
+            ],
+            17: [
+              function (t, e, n) {
+                function r(t) {
+                  if (NREUM.init) {
+                    for (
+                      var e = NREUM.init, n = t.split("."), r = 0;
+                      r < n.length - 1;
+                      r++
+                    )
+                      if (((e = e[n[r]]), "object" != typeof e)) return;
+                    return (e = e[n[n.length - 1]]);
+                  }
+                }
+                e.exports = { getConfiguration: r };
+              },
+              {},
+            ],
+            18: [
+              function (t, e, n) {
+                e.exports = function (t) {
+                  if ("string" == typeof t && t.length) return t.length;
+                  if ("object" == typeof t) {
+                    if (
+                      "undefined" != typeof ArrayBuffer &&
+                      t instanceof ArrayBuffer &&
+                      t.byteLength
+                    )
+                      return t.byteLength;
+                    if (
+                      "undefined" != typeof Blob &&
+                      t instanceof Blob &&
+                      t.size
+                    )
+                      return t.size;
+                    if (
+                      !("undefined" != typeof FormData && t instanceof FormData)
+                    )
+                      try {
+                        return JSON.stringify(t).length;
+                      } catch (e) {
+                        return;
+                      }
+                  }
+                };
+              },
+              {},
+            ],
+            19: [
+              function (t, e, n) {
+                var r = !1;
+                try {
+                  var i = Object.defineProperty({}, "passive", {
+                    get: function () {
+                      r = !0;
+                    },
+                  });
+                  window.addEventListener("testPassive", null, i),
+                    window.removeEventListener("testPassive", null, i);
+                } catch (o) {}
+                e.exports = function (t) {
+                  return r ? { passive: !0, capture: !!t } : !!t;
+                };
+              },
+              {},
+            ],
+            20: [
+              function (t, e, n) {
+                var r = 0,
+                  i = navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);
+                i && (r = +i[1]), (e.exports = r);
+              },
+              {},
+            ],
+            21: [
+              function (t, e, n) {
+                function r(t, e) {
+                  var n = [a, t, { name: t }, e];
+                  return o("storeMetric", n, null, "api"), n;
+                }
+                function i(t, e) {
+                  var n = [s, t, { name: t }, e];
+                  return o("storeEventMetrics", n, null, "api"), n;
+                }
+                var o = t("handle"),
+                  a = "sm",
+                  s = "cm";
+                e.exports = {
+                  constants: { SUPPORTABILITY_METRIC: a, CUSTOM_METRIC: s },
+                  recordSupportability: r,
+                  recordCustom: i,
+                };
+              },
+              {},
+            ],
+            22: [
+              function (t, e, n) {
+                function r() {
+                  return s.exists && performance.now
+                    ? Math.round(performance.now())
+                    : (o = Math.max(new Date().getTime(), o)) - a;
+                }
+                function i() {
+                  return o;
+                }
+                var o = new Date().getTime(),
+                  a = o,
+                  s = t(29);
+                (e.exports = r),
+                  (e.exports.offset = a),
+                  (e.exports.getLastTimestamp = i);
+              },
+              {},
+            ],
+            23: [
+              function (t, e, n) {
+                function r(t, e) {
+                  var n = t.getEntries();
+                  n.forEach(function (t) {
+                    "first-paint" === t.name
+                      ? p("timing", ["fp", Math.floor(t.startTime)])
+                      : "first-contentful-paint" === t.name &&
+                        p("timing", ["fcp", Math.floor(t.startTime)]);
+                  });
+                }
+                function i(t, e) {
+                  var n = t.getEntries();
+                  if (n.length > 0) {
+                    var r = n[n.length - 1];
+                    if (f && f < r.startTime) return;
+                    var i = [r],
+                      o = a({});
+                    o && i.push(o), p("lcp", i);
+                  }
+                }
+                function o(t) {
+                  t.getEntries().forEach(function (t) {
+                    t.hadRecentInput || p("cls", [t]);
+                  });
+                }
+                function a(t) {
+                  var e =
+                    navigator.connection ||
+                    navigator.mozConnection ||
+                    navigator.webkitConnection;
+                  if (e)
+                    return (
+                      e.type && (t["net-type"] = e.type),
+                      e.effectiveType && (t["net-etype"] = e.effectiveType),
+                      e.rtt && (t["net-rtt"] = e.rtt),
+                      e.downlink && (t["net-dlink"] = e.downlink),
+                      t
+                    );
+                }
+                function s(t) {
+                  if (t instanceof w && !y) {
+                    var e = Math.round(t.timeStamp),
+                      n = { type: t.type };
+                    a(n),
+                      e <= h.now()
+                        ? (n.fid = h.now() - e)
+                        : e > h.offset && e <= Date.now()
+                        ? ((e -= h.offset), (n.fid = h.now() - e))
+                        : (e = h.now()),
+                      (y = !0),
+                      p("timing", ["fi", e, n]);
+                  }
+                }
+                function c(t) {
+                  "hidden" === t && ((f = h.now()), p("pageHide", [f]));
+                }
+                if (
+                  !(
+                    "init" in NREUM &&
+                    "page_view_timing" in NREUM.init &&
+                    "enabled" in NREUM.init.page_view_timing &&
+                    NREUM.init.page_view_timing.enabled === !1
+                  )
+                ) {
+                  var f,
+                    u,
+                    d,
+                    l,
+                    p = t("handle"),
+                    h = t("loader"),
+                    m = t(26),
+                    v = t(19),
+                    w = NREUM.o.EV;
+                  if (
+                    "PerformanceObserver" in window &&
+                    "function" == typeof window.PerformanceObserver
+                  ) {
+                    u = new PerformanceObserver(r);
+                    try {
+                      u.observe({ entryTypes: ["paint"] });
+                    } catch (g) {}
+                    d = new PerformanceObserver(i);
+                    try {
+                      d.observe({ entryTypes: ["largest-contentful-paint"] });
+                    } catch (g) {}
+                    l = new PerformanceObserver(o);
+                    try {
+                      l.observe({ type: "layout-shift", buffered: !0 });
+                    } catch (g) {}
+                  }
+                  if ("addEventListener" in document) {
+                    var y = !1,
+                      x = [
+                        "click",
+                        "keydown",
+                        "mousedown",
+                        "pointerdown",
+                        "touchstart",
+                      ];
+                    x.forEach(function (t) {
+                      document.addEventListener(t, s, v(!1));
+                    });
+                  }
+                  m(c);
+                }
+              },
+              {},
+            ],
+            24: [
+              function (t, e, n) {
+                function r() {
+                  function t() {
+                    return e ? 15 & e[n++] : (16 * Math.random()) | 0;
+                  }
+                  var e = null,
+                    n = 0,
+                    r = window.crypto || window.msCrypto;
+                  r &&
+                    r.getRandomValues &&
+                    (e = r.getRandomValues(new Uint8Array(31)));
+                  for (
+                    var i,
+                      o = "xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx",
+                      a = "",
+                      s = 0;
+                    s < o.length;
+                    s++
+                  )
+                    (i = o[s]),
+                      "x" === i
+                        ? (a += t().toString(16))
+                        : "y" === i
+                        ? ((i = (3 & t()) | 8), (a += i.toString(16)))
+                        : (a += i);
+                  return a;
+                }
+                function i() {
+                  return a(16);
+                }
+                function o() {
+                  return a(32);
+                }
+                function a(t) {
+                  function e() {
+                    return n ? 15 & n[r++] : (16 * Math.random()) | 0;
+                  }
+                  var n = null,
+                    r = 0,
+                    i = window.crypto || window.msCrypto;
+                  i &&
+                    i.getRandomValues &&
+                    Uint8Array &&
+                    (n = i.getRandomValues(new Uint8Array(t)));
+                  for (var o = [], a = 0; a < t; a++) o.push(e().toString(16));
+                  return o.join("");
+                }
+                e.exports = {
+                  generateUuid: r,
+                  generateSpanId: i,
+                  generateTraceId: o,
+                };
+              },
+              {},
+            ],
+            25: [
+              function (t, e, n) {
+                function r(t, e) {
+                  if (!i) return !1;
+                  if (t !== i) return !1;
+                  if (!e) return !0;
+                  if (!o) return !1;
+                  for (
+                    var n = o.split("."), r = e.split("."), a = 0;
+                    a < r.length;
+                    a++
+                  )
+                    if (r[a] !== n[a]) return !1;
+                  return !0;
+                }
+                var i = null,
+                  o = null,
+                  a = /Version\/(\S+)\s+Safari/;
+                if (navigator.userAgent) {
+                  var s = navigator.userAgent,
+                    c = s.match(a);
+                  c &&
+                    s.indexOf("Chrome") === -1 &&
+                    s.indexOf("Chromium") === -1 &&
+                    ((i = "Safari"), (o = c[1]));
+                }
+                e.exports = { agent: i, version: o, match: r };
+              },
+              {},
+            ],
+            26: [
+              function (t, e, n) {
+                function r(t) {
+                  function e() {
+                    t(
+                      s && document[s]
+                        ? document[s]
+                        : document[o]
+                        ? "hidden"
+                        : "visible"
+                    );
+                  }
+                  "addEventListener" in document &&
+                    a &&
+                    document.addEventListener(a, e, i(!1));
+                }
+                var i = t(19);
+                e.exports = r;
+                var o, a, s;
+                "undefined" != typeof document.hidden
+                  ? ((o = "hidden"),
+                    (a = "visibilitychange"),
+                    (s = "visibilityState"))
+                  : "undefined" != typeof document.msHidden
+                  ? ((o = "msHidden"), (a = "msvisibilitychange"))
+                  : "undefined" != typeof document.webkitHidden &&
+                    ((o = "webkitHidden"),
+                    (a = "webkitvisibilitychange"),
+                    (s = "webkitVisibilityState"));
+              },
+              {},
+            ],
+            27: [
+              function (t, e, n) {
+                function r(t, e) {
+                  var n = [],
+                    r = "",
+                    o = 0;
+                  for (r in t) i.call(t, r) && ((n[o] = e(r, t[r])), (o += 1));
+                  return n;
+                }
+                var i = Object.prototype.hasOwnProperty;
+                e.exports = r;
+              },
+              {},
+            ],
+            28: [
+              function (t, e, n) {
+                function r(t, e, n) {
+                  e || (e = 0),
+                    "undefined" == typeof n && (n = t ? t.length : 0);
+                  for (
+                    var r = -1, i = n - e || 0, o = Array(i < 0 ? 0 : i);
+                    ++r < i;
+
+                  )
+                    o[r] = t[e + r];
+                  return o;
+                }
+                e.exports = r;
+              },
+              {},
+            ],
+            29: [
+              function (t, e, n) {
+                e.exports = {
+                  exists:
+                    "undefined" != typeof window.performance &&
+                    window.performance.timing &&
+                    "undefined" !=
+                      typeof window.performance.timing.navigationStart,
+                };
+              },
+              {},
+            ],
+            ee: [
+              function (t, e, n) {
+                function r() {}
+                function i(t) {
+                  function e(t) {
+                    return t && t instanceof r ? t : t ? f(t, c, a) : a();
+                  }
+                  function n(n, r, i, o, a) {
+                    if ((a !== !1 && (a = !0), !p.aborted || o)) {
+                      t && a && t(n, r, i);
+                      for (
+                        var s = e(i), c = m(n), f = c.length, u = 0;
+                        u < f;
+                        u++
+                      )
+                        c[u].apply(s, r);
+                      var l = d[y[n]];
+                      return l && l.push([x, n, r, s]), s;
+                    }
+                  }
+                  function o(t, e) {
+                    g[t] = m(t).concat(e);
+                  }
+                  function h(t, e) {
+                    var n = g[t];
+                    if (n)
+                      for (var r = 0; r < n.length; r++)
+                        n[r] === e && n.splice(r, 1);
+                  }
+                  function m(t) {
+                    return g[t] || [];
+                  }
+                  function v(t) {
+                    return (l[t] = l[t] || i(n));
+                  }
+                  function w(t, e) {
+                    p.aborted ||
+                      u(t, function (t, n) {
+                        (e = e || "feature"), (y[n] = e), e in d || (d[e] = []);
+                      });
+                  }
+                  var g = {},
+                    y = {},
+                    x = {
+                      on: o,
+                      addEventListener: o,
+                      removeEventListener: h,
+                      emit: n,
+                      get: v,
+                      listeners: m,
+                      context: e,
+                      buffer: w,
+                      abort: s,
+                      aborted: !1,
+                    };
+                  return x;
+                }
+                function o(t) {
+                  return f(t, c, a);
+                }
+                function a() {
+                  return new r();
+                }
+                function s() {
+                  (d.api || d.feature) &&
+                    ((p.aborted = !0), (d = p.backlog = {}));
+                }
+                var c = "nr@context",
+                  f = t("gos"),
+                  u = t(27),
+                  d = {},
+                  l = {},
+                  p = (e.exports = i());
+                (e.exports.getOrSetContext = o), (p.backlog = d);
+              },
+              {},
+            ],
+            gos: [
+              function (t, e, n) {
+                function r(t, e, n) {
+                  if (i.call(t, e)) return t[e];
+                  var r = n();
+                  if (Object.defineProperty && Object.keys)
+                    try {
+                      return (
+                        Object.defineProperty(t, e, {
+                          value: r,
+                          writable: !0,
+                          enumerable: !1,
+                        }),
+                        r
+                      );
+                    } catch (o) {}
+                  return (t[e] = r), r;
+                }
+                var i = Object.prototype.hasOwnProperty;
+                e.exports = r;
+              },
+              {},
+            ],
+            handle: [
+              function (t, e, n) {
+                function r(t, e, n, r) {
+                  i.buffer([t], r), i.emit(t, e, n);
+                }
+                var i = t("ee").get("handle");
+                (e.exports = r), (r.ee = i);
+              },
+              {},
+            ],
+            id: [
+              function (t, e, n) {
+                function r(t) {
+                  var e = typeof t;
+                  return !t || ("object" !== e && "function" !== e)
+                    ? -1
+                    : t === window
+                    ? 0
+                    : a(t, o, function () {
+                        return i++;
+                      });
+                }
+                var i = 1,
+                  o = "nr@id",
+                  a = t("gos");
+                e.exports = r;
+              },
+              {},
+            ],
+            loader: [
+              function (t, e, n) {
+                function r() {
+                  if (!O++) {
+                    var t = (S.info = NREUM.info),
+                      e = m.getElementsByTagName("script")[0];
+                    if (
+                      (setTimeout(f.abort, 3e4),
+                      !(t && t.licenseKey && t.applicationID && e))
+                    )
+                      return f.abort();
+                    c(E, function (e, n) {
+                      t[e] || (t[e] = n);
+                    });
+                    var n = a();
+                    s("mark", ["onload", n + S.offset], null, "api"),
+                      s("timing", ["load", n]);
+                    var r = m.createElement("script");
+                    0 === t.agent.indexOf("http://") ||
+                    0 === t.agent.indexOf("https://")
+                      ? (r.src = t.agent)
+                      : (r.src = p + "://" + t.agent),
+                      e.parentNode.insertBefore(r, e);
+                  }
+                }
+                function i() {
+                  "complete" === m.readyState && o();
+                }
+                function o() {
+                  s("mark", ["domContent", a() + S.offset], null, "api");
+                }
+                var a = t(22),
+                  s = t("handle"),
+                  c = t(27),
+                  f = t("ee"),
+                  u = t(25),
+                  d = t(17),
+                  l = t(19),
+                  p = d.getConfiguration("ssl") === !1 ? "http" : "https",
+                  h = window,
+                  m = h.document,
+                  v = "addEventListener",
+                  w = "attachEvent",
+                  g = h.XMLHttpRequest,
+                  y = g && g.prototype,
+                  x = !1;
+                NREUM.o = {
+                  ST: setTimeout,
+                  SI: h.setImmediate,
+                  CT: clearTimeout,
+                  XHR: g,
+                  REQ: h.Request,
+                  EV: h.Event,
+                  PR: h.Promise,
+                  MO: h.MutationObserver,
+                };
+                var b = "" + location,
+                  E = {
+                    beacon: "bam.nr-data.net",
+                    errorBeacon: "bam.nr-data.net",
+                    agent: "js-agent.newrelic.com/nr-1216.min.js",
+                  },
+                  R = g && y && y[v] && !/CriOS/.test(navigator.userAgent),
+                  S = (e.exports = {
+                    offset: a.getLastTimestamp(),
+                    now: a,
+                    origin: b,
+                    features: {},
+                    xhrWrappable: R,
+                    userAgent: u,
+                    disabled: x,
+                  });
+                if (!x) {
+                  t(16),
+                    t(23),
+                    m[v]
+                      ? (m[v]("DOMContentLoaded", o, l(!1)),
+                        h[v]("load", r, l(!1)))
+                      : (m[w]("onreadystatechange", i), h[w]("onload", r)),
+                    s("mark", ["firstbyte", a.getLastTimestamp()], null, "api");
+                  var O = 0;
+                }
+              },
+              {},
+            ],
+            "wrap-function": [
+              function (t, e, n) {
+                function r(t, e) {
+                  function n(e, n, r, c, f) {
+                    function nrWrapper() {
+                      var o, a, u, l;
+                      try {
+                        (a = this),
+                          (o = d(arguments)),
+                          (u = "function" == typeof r ? r(o, a) : r || {});
+                      } catch (p) {
+                        i([p, "", [o, a, c], u], t);
+                      }
+                      s(n + "start", [o, a, c], u, f);
+                      try {
+                        return (l = e.apply(a, o));
+                      } catch (h) {
+                        throw (s(n + "err", [o, a, h], u, f), h);
+                      } finally {
+                        s(n + "end", [o, a, l], u, f);
+                      }
+                    }
+                    return a(e)
+                      ? e
+                      : (n || (n = ""),
+                        (nrWrapper[l] = e),
+                        o(e, nrWrapper, t),
+                        nrWrapper);
+                  }
+                  function r(t, e, r, i, o) {
+                    r || (r = "");
+                    var s,
+                      c,
+                      f,
+                      u = "-" === r.charAt(0);
+                    for (f = 0; f < e.length; f++)
+                      (c = e[f]),
+                        (s = t[c]),
+                        a(s) || (t[c] = n(s, u ? c + r : r, i, c, o));
+                  }
+                  function s(n, r, o, a) {
+                    if (!h || e) {
+                      var s = h;
+                      h = !0;
+                      try {
+                        t.emit(n, r, o, e, a);
+                      } catch (c) {
+                        i([c, n, r, o], t);
+                      }
+                      h = s;
+                    }
+                  }
+                  return t || (t = u), (n.inPlace = r), (n.flag = l), n;
+                }
+                function i(t, e) {
+                  e || (e = u);
+                  try {
+                    e.emit("internal-error", t);
+                  } catch (n) {}
+                }
+                function o(t, e, n) {
+                  if (Object.defineProperty && Object.keys)
+                    try {
+                      var r = Object.keys(t);
+                      return (
+                        r.forEach(function (n) {
+                          Object.defineProperty(e, n, {
+                            get: function () {
+                              return t[n];
+                            },
+                            set: function (e) {
+                              return (t[n] = e), e;
+                            },
+                          });
+                        }),
+                        e
+                      );
+                    } catch (o) {
+                      i([o], n);
+                    }
+                  for (var a in t) p.call(t, a) && (e[a] = t[a]);
+                  return e;
+                }
+                function a(t) {
+                  return !(t && t instanceof Function && t.apply && !t[l]);
+                }
+                function s(t, e) {
+                  var n = e(t);
+                  return (n[l] = t), o(t, n, u), n;
+                }
+                function c(t, e, n) {
+                  var r = t[e];
+                  t[e] = s(r, n);
+                }
+                function f() {
+                  for (
+                    var t = arguments.length, e = new Array(t), n = 0;
+                    n < t;
+                    ++n
+                  )
+                    e[n] = arguments[n];
+                  return e;
+                }
+                var u = t("ee"),
+                  d = t(28),
+                  l = "nr@original",
+                  p = Object.prototype.hasOwnProperty,
+                  h = !1;
+                (e.exports = r),
+                  (e.exports.wrapFunction = s),
+                  (e.exports.wrapInPlace = c),
+                  (e.exports.argsToArray = f);
+              },
+              {},
+            ],
+          },
+          {},
+          ["loader", 2, 13, 4, 3]
+        ));
+    </script>
+    <link rel="canonical" href="paintings.html" />
+
+    <script type="text/javascript">
+      try {
+        function css_browser_selector(u) {
+          var ua = u.toLowerCase(),
+            is = function (t) {
+              return ua.indexOf(t) > -1;
+            },
+            g = "gecko",
+            w = "webkit",
+            s = "safari",
+            o = "opera",
+            m = "mobile",
+            h = document.documentElement,
+            b = [
+              !/opera|webtv/i.test(ua) && /msie\s(\d)/.test(ua)
+                ? "ie ie" + RegExp.$1
+                : is("firefox/2")
+                ? g + " ff2"
+                : is("firefox/3.5")
+                ? g + " ff3 ff3_5"
+                : is("firefox/3.6")
+                ? g + " ff3 ff3_6"
+                : is("firefox/3")
+                ? g + " ff3"
+                : is("gecko/")
+                ? g
+                : is("opera")
+                ? o +
+                  (/version\/(\d+)/.test(ua)
+                    ? " " + o + RegExp.$1
+                    : /opera(\s|\/)(\d+)/.test(ua)
+                    ? " " + o + RegExp.$2
+                    : "")
+                : is("konqueror")
+                ? "konqueror"
+                : is("blackberry")
+                ? m + " blackberry"
+                : is("android")
+                ? m + " android"
+                : is("chrome")
+                ? w + " chrome"
+                : is("iron")
+                ? w + " iron"
+                : is("applewebkit/")
+                ? w +
+                  " " +
+                  s +
+                  (/version\/(\d+)/.test(ua) ? " " + s + RegExp.$1 : "")
+                : is("mozilla/")
+                ? g
+                : "",
+              is("j2me")
+                ? m + " j2me"
+                : is("iphone")
+                ? m + " iphone"
+                : is("ipod")
+                ? m + " ipod"
+                : is("ipad")
+                ? m + " ipad"
+                : is("mac")
+                ? "mac"
+                : is("darwin")
+                ? "mac"
+                : is("webtv")
+                ? "webtv"
+                : is("win")
+                ? "win" + (is("windows nt 6.0") ? " vista" : "")
+                : is("freebsd")
+                ? "freebsd"
+                : is("x11") || is("linux")
+                ? "linux"
+                : "",
+              "js",
+            ];
+          c = b.join(" ");
+          h.className += " " + c;
+          return c;
+        }
+        css_browser_selector(navigator.userAgent);
+      } catch (e) {}
+    </script>
+
+    <!-- fonts -->
+
+    <link
+      href="./paintings_files/hosted_fonts-d5ec48dda39ec1dad115aee68d1d6c3460ffc8c8697f01060d36750496a3192f.css"
+      media="screen"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <link
+      href="./paintings_files/webtype_fonts.min-51d9b9edb8f956fb39da113609d790ba607fa4fbda053af8e378bb9233ef4a39.css"
+      media="screen"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <title>Paintings - Kelly's Art - Sculptor &amp; Installation Artist</title>
+    <link rel="shortcut icon" href="logo.png" type="icon" />
+
+    <meta content="false" name="protect_images" />
+
+    <meta name="current_path" content="/2279734-paintings" />
+    <meta
+      name="image_protection_blurb"
+      content="This photo is Copyright © 2015 andreamanning. All rights reserved."
+    />
+    <meta
+      property="og:site_name"
+      content="Kelly's Art - Sculptor &amp; Installation Artist"
+    />
+    <meta
+      property="og:title"
+      content="Paintings - Kelly's Art - Sculptor &amp; Installation Artist"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="paintings.html" />
+    <meta
+      property="og:image"
+      content="https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,227,2703,2930,1600,1200/0-0-0/d4a57e5b-ab56-4eb5-9b36-8032af1e694c/1/2/P1050401_2.jpg?fjkss=exp=1968183435~hmac=2b278ce389bdb99af85104e6618ebf59d39f28a76b558990c02c09dbe317c0ee"
+    />
+    <meta property="og:image:width" content="1600" />
+    <meta property="og:image:height" content="1868" />
+    <meta
+      property="og:description"
+      content="Paintings on Kelly's Art - Sculptor &amp; Installation Artist"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Paintings - Kelly's Art - Sculptor &amp; Installation Artist"
+    />
+    <meta
+      name="twitter:description"
+      content="Paintings on Kelly's Art - Sculptor &amp; Installation Artist"
+    />
+
+    <link
+      href="./paintings_files/share_panel-1a26721acae26eabd7c32296e2ee8cf053d1a1a8d9f7c49f0df899bc27b784c1.css"
+      media="screen"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="./paintings_files/protected_images-6cc002aad772e14af53bbbb966d0611491b39e25fc8fba42e94598f98d535828.css"
+      media="screen"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="./paintings_files/font-awesome.min-3149da3014aff38a256574aa7aa1b947387efee9cdc1fb2d39e234606f231c96.css"
+      media="screen"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="./paintings_files/theme_social-666d56afe440722dbf0325c8f10528dcc28546f5fab9eb19bc7098b0179fac58.css"
+      media="screen"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="./paintings_files/cart-4d5bed841e04f35cada9bb41f30882005c189af13e193524545f285f7c279533.css"
+      media="screen"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <!--[if IE 7]>
+      <link
+        rel="stylesheet"
+        href="/static/theme_api/v1/theme_social-ie7-e0b58b4496ed3cf9a2fb98382fa1ca8c7e2019e42fa1ac767e9b28ffded26cdd.css"
+      />
+    <![endif]-->
+    <!--[if IE 8]>
+      <link
+        rel="stylesheet"
+        href="/static/theme_api/v1/theme_social-ie7-e0b58b4496ed3cf9a2fb98382fa1ca8c7e2019e42fa1ac767e9b28ffded26cdd.css"
+      />
+    <![endif]-->
+
+    <link
+      href="./paintings_files/stylesheet.css"
+      media="screen"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- NOTE: this is what is generated by the theme CSS template -->
+
+    <style type="text/css">
+      .youtube_cont.preview,
+      .vimeo_cont.preview {
+        position: relative;
+      }
+      .youtube_cont.preview img,
+      .vimeo_cont.preview img {
+        max-width: 100%;
+        max-height: 100%;
+        height: 100%;
+        z-index: 1;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .youtube_cont.preview .load_iframe,
+      .vimeo_cont.preview .load_iframe {
+        left: 0;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-image: url("/static/vid_overlay-b935013b5cebeedb8f5d5f3e7b0c48ee08c556e2db6888045b216f172195e632.png");
+        z-index: 2;
+      }
+      .youtube_cont.preview iframe,
+      .vimeo_cont.preview iframe {
+        left: 0;
+        position: absolute;
+        width: inherit;
+        height: inherit;
+        z-index: 1000;
+      }
+    </style>
+
+    <style>
+      .format-instagram-icon.format-instagram-icon-heart {
+        background-image: url("/static/heart-fdbd4f0c82adfe04d7251886935bf91ac9a3948c951353b40cf519eb034bcf6f.svg");
+      }
+
+      .format-instagram-icon.format-instagram-icon-comment {
+        background-image: url("/static/left-balloon-ellipses-9b27c618ded2344503f9ff2c3022152ef29618b6fde3931dabc5f07b1d92e8a6.svg");
+      }
+    </style>
+
+    <script>
+      window._4ORMAT = window._4ORMAT || {};
+      window._4ORMAT.social = {
+        instagram: {
+          accessToken: null,
+        },
+      };
+    </script>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body class="page-2279734 gallery gallery_page" style="">
+    <script>
+      if (Math.floor(Math.random() * 100) < 1) {
+        const Http = new XMLHttpRequest();
+        Http.open("GET", "/track?ref=" + document.referrer);
+        Http.send();
+      }
+    </script>
+    <div class="gallery-wrap">
+      <header class="nav-wrapper anim" style="height: 638px">
+        <div class="wrapper" style="display: block; padding-top: 95px">
+          <!-- LOGO or WEBSITE NAME : START -->
+
+          <h1 class="logo_wrap">
+            <a href="home.html" class="logo text">Kelly's Art</a>
+          </h1>
+
+          <!-- LOGO or WEBSITE NAME : END -->
+
+          <nav id="menu">
+            <ul>
+              <li class="item">
+                <a href="home.html">Home</a>
+              </li>
+
+              <li class="item">
+                <a href="galleries.html">Galleries</a>
+              </li>
+
+              <li class="item">
+                <a href="about.html">About</a>
+              </li>
+
+<li class="item">
+                <a href="contact.html">Contact</a>
+              </li>
+              <!-- <li class="item">
+                <a href="career/index.html">Career</a>
+              </li> -->
+            </ul>
+          </nav>
+
+          <div id="social" class="social_icons">
+            <ul>
+              <li>
+                <a
+                  class="social-icon-link"
+                  href="https://www.facebook.com/"
+                  target="_blank"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 -150 1000 1000"
+                    class="social-icon"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M570.5 310h144l-17 159h-127v460h-190V469h-95V310h95v-95c0-68 16-119.3 48-154s84.7-52 158-52h126v158h-79c-14.7 0-26.3 1.3-35 4s-15 7-19 13-6.3 12.3-7 19-1.3 16-2 28v79z"
+                    ></path>
+                  </svg>
+                </a>
+              </li>
+
+              <li>
+                <a
+                  class="social-icon-link"
+                  href="https://www.instagram.com/"
+                  target="_blank"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="-70 -150 1000 1000"
+                    class="social-icon"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M571 500q0-59-41-101t-101-42-101 42-42 101 42 101 101 42 101-42 41-101zm77 0q0 91-64 156t-155 64-156-64-64-156 64-156 156-64 155 64 64 156zm61-229q0 21-15 36t-37 15-36-15-15-36 15-36 36-15 37 15 15 36zM429 148H327l-54 2-57 5-40 11q-28 11-49 32t-33 49q-6 16-10 40t-6 58-1 53 0 59 0 43 0 43 0 59 1 53 6 58l10 40q12 28 33 49t49 32q16 6 40 11t57 5 54 2 59 0 43 0 42 0 59 0 54-2 58-5 39-11q28-11 50-32t32-49q6-16 10-40t6-58 1-53 0-59 0-43 0-43 0-59-1-53-6-58l-10-40q-11-28-32-49t-50-32q-16-6-39-11t-58-5-54-2-59 0-42 0zm428 352q0 128-3 177-5 116-69 180t-179 69q-50 3-177 3t-177-3q-116-6-180-69T3 677q-3-49-3-177t3-177q5-116 69-180t180-69q49-3 177-3t177 3q116 6 179 69t69 180q3 49 3 177z"
+                    ></path>
+                  </svg>
+                </a>
+              </li>
+
+              <li id="share_button" class="item top_level">
+                <a
+                  href="paintings.html#"
+                  id="share_4ormat_link"
+                  class="top_level_link"
+                  data-direction="right"
+                  >Share</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="post_text">Follow me on social media!</div>
+          <br />
+          <br />
+          <div class="post_text">
+            <strong>+1(857) 421-7881</strong>
+          </div>
+          <div class="post_text">
+            <strong>kellylambeth93@gmail.com</strong>
+          </div>
+        </div>
+      </header>
+      <aside class="mobileMenu mobile-content-top anim">
+        <div class="container">
+          <div class="wrapper open">
+            <!-- LOGO or WEBSITE NAME : START -->
+
+            <h1 class="logo_wrap">
+              <a href="home.html" class="logo text">Kelly's Art</a>
+            </h1>
+
+            <!-- LOGO or WEBSITE NAME : END -->
+            <div class="mobile-menu-trigger">
+              <span class="ex"></span>
+            </div>
+          </div>
+          <div class="wrapper closed">
+            <!-- LOGO or WEBSITE NAME : START -->
+
+            <h1 class="logo_wrap">
+              <a href="home.html" class="logo text">Kelly's Art</a>
+            </h1>
+
+            <!-- LOGO or WEBSITE NAME : END -->
+            <div class="mobileMenu mobile-menu-close">X</div>
+          </div>
+        </div>
+      </aside>
+
+      <div
+        id="content"
+        class="clearfix"
+        style="margin-left: 300px; display: block; padding-top: 95px"
+      >
+        <div class="assets-container clearfix hstack">
+          <div class="gutter-sizer"></div>
+          <div class="grid-sizer"></div>
+
+          <div
+            class="asset asset-image"
+            onclick="set_price()"
+            data-asset-id="0"
+          >
+            <a href="paintings.html#" data-asset-id="0">
+              <img
+                nopin="true"
+                alt=""
+                data-sizes="auto"
+                class="lazy-asset lazyautosizes lazyloaded"
+                data-src="https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2288,2467,2288,300/0-0-0/fb7aca3a-dd56-473d-8f47-b36c8971c7d9/1/1/P1050400.JPG?fjkss=exp=1968183298~hmac=5092bd5aafb965eb698f8e668512cfa77cefb028bff6f6fa834394f65f473e32"
+                data-srcset="
+              
+                https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2288,2467,2288,900/0-0-0/fb7aca3a-dd56-473d-8f47-b36c8971c7d9/1/1/P1050400.JPG?fjkss=exp=1968183298~hmac=b762bcac447ebdcca77147ff44bb3d11aaaaaa5c60f01c438139010d7710dda8&amp;835 835w 900h, https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2288,2467,2288,700/0-0-0/fb7aca3a-dd56-473d-8f47-b36c8971c7d9/1/1/P1050400.JPG?fjkss=exp=1968183298~hmac=e57e05cc09047cdb64f42637712124c9a5fc4b04388ffd9733ab51785dfd5c4b&amp;649 649w 700h, https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2288,2467,2288,550/0-0-0/fb7aca3a-dd56-473d-8f47-b36c8971c7d9/1/1/P1050400.JPG?fjkss=exp=1968183298~hmac=6a30ea05cba80a6b44351593b53d6bbae5d3c8f00bc5724a3435f899c5fa2190&amp;510 510w 550h, https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2288,2467,2288,400/0-0-0/fb7aca3a-dd56-473d-8f47-b36c8971c7d9/1/1/P1050400.JPG?fjkss=exp=1968183298~hmac=c802e8bc78bceebdf025d9943b5cc0a56c609b77a22756d0722e71913c415b47&amp;371 371w 400h, https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2288,2467,2288,300/0-0-0/fb7aca3a-dd56-473d-8f47-b36c8971c7d9/1/1/P1050400.JPG?fjkss=exp=1968183298~hmac=5092bd5aafb965eb698f8e668512cfa77cefb028bff6f6fa834394f65f473e32&amp;278 278w 300h, https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2288,2467,2288,150/0-0-0/fb7aca3a-dd56-473d-8f47-b36c8971c7d9/1/1/P1050400.JPG?fjkss=exp=1968183298~hmac=852667d65e3cb895e1fc71f7e2169e1d8a3ad8a23c40945ace829f824dfe0094&amp;139 139w 150h, https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2288,2467,2288,1200/0-0-0/fb7aca3a-dd56-473d-8f47-b36c8971c7d9/1/1/P1050400.JPG?fjkss=exp=1968183298~hmac=26171c66a45475b76fe6f99a9f4d8839f1a74f7a0bd142638e4edd3611a4b707&amp;1113 1113w 1200h
+              
+              "
+                sizes="156px"
+                srcset="
+              
+                https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2288,2467,2288,900/0-0-0/fb7aca3a-dd56-473d-8f47-b36c8971c7d9/1/1/P1050400.JPG?fjkss=exp=1968183298~hmac=b762bcac447ebdcca77147ff44bb3d11aaaaaa5c60f01c438139010d7710dda8&amp;835 835w 900h, https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2288,2467,2288,700/0-0-0/fb7aca3a-dd56-473d-8f47-b36c8971c7d9/1/1/P1050400.JPG?fjkss=exp=1968183298~hmac=e57e05cc09047cdb64f42637712124c9a5fc4b04388ffd9733ab51785dfd5c4b&amp;649 649w 700h, https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2288,2467,2288,550/0-0-0/fb7aca3a-dd56-473d-8f47-b36c8971c7d9/1/1/P1050400.JPG?fjkss=exp=1968183298~hmac=6a30ea05cba80a6b44351593b53d6bbae5d3c8f00bc5724a3435f899c5fa2190&amp;510 510w 550h, https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2288,2467,2288,400/0-0-0/fb7aca3a-dd56-473d-8f47-b36c8971c7d9/1/1/P1050400.JPG?fjkss=exp=1968183298~hmac=c802e8bc78bceebdf025d9943b5cc0a56c609b77a22756d0722e71913c415b47&amp;371 371w 400h, https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2288,2467,2288,300/0-0-0/fb7aca3a-dd56-473d-8f47-b36c8971c7d9/1/1/P1050400.JPG?fjkss=exp=1968183298~hmac=5092bd5aafb965eb698f8e668512cfa77cefb028bff6f6fa834394f65f473e32&amp;278 278w 300h, https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2288,2467,2288,150/0-0-0/fb7aca3a-dd56-473d-8f47-b36c8971c7d9/1/1/P1050400.JPG?fjkss=exp=1968183298~hmac=852667d65e3cb895e1fc71f7e2169e1d8a3ad8a23c40945ace829f824dfe0094&amp;139 139w 150h, https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2288,2467,2288,1200/0-0-0/fb7aca3a-dd56-473d-8f47-b36c8971c7d9/1/1/P1050400.JPG?fjkss=exp=1968183298~hmac=26171c66a45475b76fe6f99a9f4d8839f1a74f7a0bd142638e4edd3611a4b707&amp;1113 1113w 1200h
+              
+              "
+                src="./paintings_files/P1050400.JPG"
+              />
+              <div class="overlay" style="filter: none"></div>
+
+              <i class="icon" style="display: inline"></i>
+            </a>
+          </div>
+
+          <div
+            class="asset asset-image"
+            onclick="set_price()"
+            data-asset-id="1"
+          >
+            <a href="paintings.html#" data-asset-id="1">
+              <img
+                nopin="true"
+                alt=""
+                data-sizes="auto"
+                class="lazy-asset lazyautosizes lazyloaded"
+                data-src="https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2703,3156,2703,300/0-0-0/d4a57e5b-ab56-4eb5-9b36-8032af1e694c/1/1/P1050401_2.jpg?fjkss=exp=1968183298~hmac=5e23e01d9cc301a7e0edb6f164e4f92460825590b809cd9e002a45ff08285553"
+                data-srcset="
+              
+                https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2703,3156,2703,900/0-0-0/d4a57e5b-ab56-4eb5-9b36-8032af1e694c/1/1/P1050401_2.jpg?fjkss=exp=1968183298~hmac=a5f2bbad9e77bcc488d372e4fd87ec59d0995ba400e7e6ede92ae20c28d525b2&amp;771 771w 900h, https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2703,3156,2703,700/0-0-0/d4a57e5b-ab56-4eb5-9b36-8032af1e694c/1/1/P1050401_2.jpg?fjkss=exp=1968183298~hmac=e9d8a145694f6c3540f73f92297583ba6cd299f073c9979f137f16b74113d670&amp;600 600w 700h, https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2703,3156,2703,550/0-0-0/d4a57e5b-ab56-4eb5-9b36-8032af1e694c/1/1/P1050401_2.jpg?fjkss=exp=1968183298~hmac=058bd13ae2b3e2163cc385a91349a43e8f07df033ce9c5258ae7d1f5b5fca859&amp;471 471w 550h, https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2703,3156,2703,400/0-0-0/d4a57e5b-ab56-4eb5-9b36-8032af1e694c/1/1/P1050401_2.jpg?fjkss=exp=1968183298~hmac=b7608daf5f26a0010f9c07dace4ada52e75953979071fbef3ab726f3100d2cc4&amp;343 343w 400h, https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2703,3156,2703,300/0-0-0/d4a57e5b-ab56-4eb5-9b36-8032af1e694c/1/1/P1050401_2.jpg?fjkss=exp=1968183298~hmac=5e23e01d9cc301a7e0edb6f164e4f92460825590b809cd9e002a45ff08285553&amp;257 257w 300h, https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2703,3156,2703,150/0-0-0/d4a57e5b-ab56-4eb5-9b36-8032af1e694c/1/1/P1050401_2.jpg?fjkss=exp=1968183298~hmac=86ee54b79d933b106a8c0a2c3dcd4fdf93237eef9d30db3a48e4abb46ffa5d42&amp;128 128w 150h, https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2703,3156,2703,1200/0-0-0/d4a57e5b-ab56-4eb5-9b36-8032af1e694c/1/1/P1050401_2.jpg?fjkss=exp=1968183298~hmac=a81ebc752447a9540617cbf28b1e25fabe8d2ed208e603bdac4ffe1af75ee306&amp;1028 1028w 1200h
+              
+              "
+                sizes="144px"
+                srcset="
+              
+                https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2703,3156,2703,900/0-0-0/d4a57e5b-ab56-4eb5-9b36-8032af1e694c/1/1/P1050401_2.jpg?fjkss=exp=1968183298~hmac=a5f2bbad9e77bcc488d372e4fd87ec59d0995ba400e7e6ede92ae20c28d525b2&amp;771 771w 900h, https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2703,3156,2703,700/0-0-0/d4a57e5b-ab56-4eb5-9b36-8032af1e694c/1/1/P1050401_2.jpg?fjkss=exp=1968183298~hmac=e9d8a145694f6c3540f73f92297583ba6cd299f073c9979f137f16b74113d670&amp;600 600w 700h, https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2703,3156,2703,550/0-0-0/d4a57e5b-ab56-4eb5-9b36-8032af1e694c/1/1/P1050401_2.jpg?fjkss=exp=1968183298~hmac=058bd13ae2b3e2163cc385a91349a43e8f07df033ce9c5258ae7d1f5b5fca859&amp;471 471w 550h, https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2703,3156,2703,400/0-0-0/d4a57e5b-ab56-4eb5-9b36-8032af1e694c/1/1/P1050401_2.jpg?fjkss=exp=1968183298~hmac=b7608daf5f26a0010f9c07dace4ada52e75953979071fbef3ab726f3100d2cc4&amp;343 343w 400h, https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2703,3156,2703,300/0-0-0/d4a57e5b-ab56-4eb5-9b36-8032af1e694c/1/1/P1050401_2.jpg?fjkss=exp=1968183298~hmac=5e23e01d9cc301a7e0edb6f164e4f92460825590b809cd9e002a45ff08285553&amp;257 257w 300h, https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2703,3156,2703,150/0-0-0/d4a57e5b-ab56-4eb5-9b36-8032af1e694c/1/1/P1050401_2.jpg?fjkss=exp=1968183298~hmac=86ee54b79d933b106a8c0a2c3dcd4fdf93237eef9d30db3a48e4abb46ffa5d42&amp;128 128w 150h, https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2703,3156,2703,1200/0-0-0/d4a57e5b-ab56-4eb5-9b36-8032af1e694c/1/1/P1050401_2.jpg?fjkss=exp=1968183298~hmac=a81ebc752447a9540617cbf28b1e25fabe8d2ed208e603bdac4ffe1af75ee306&amp;1028 1028w 1200h
+              
+              "
+                src="./paintings_files/P1050401_2.jpg"
+              />
+              <div class="overlay" style="filter: none"></div>
+
+              <i class="icon" style="display: inline"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="overlay" class="close"></div>
+    <div class="lightbox-wrapper">
+      <div class="window-wrapper">
+        <div id="gallery_window" class="loading">
+          <a id="close" class="close"><i class="icon-close"></i></a>
+          <div
+            class="lightbox-asset-wrapper"
+            style="
+              align-items: center;
+              justify-content: end;
+              text-align: center !important;
+            "
+          >
+            <span
+              id="item_price"
+              style="
+                color: white;
+                border-radius: 5px;
+                font-weight: bolder;
+                background-color: gray;
+                margin-top: -35px;
+                margin-bottom: 3px;
+                padding: 8px 10px;
+              "
+            ></span>
+            <botton
+              class="btn_order"
+              style="
+                color: white;
+                border-radius: 5px;
+                font-weight: bolder;
+                background-color: gray;
+                margin-bottom: 1px;
+                margin-bottom: -38px;
+                padding: 10px 15px;
+                position: absolute;
+              "
+              type="button"
+              data-toggle="modal"
+              data-target="#modalMakeOrder"
+              >ORDER NOW</botton
+            >
+            <div id="window_inner"></div>
+            <div id="copy_holder" class="caption">
+              <div class="inner"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="mq"></div>
+
+    <div
+      class="modal fade"
+      id="modalMakeOrder"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="modalMakeOrderTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="close d-flex align-items-center justify-content-center"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true" class="ion-ios-close"></span>
+            </button>
+          </div>
+          <div class="modal-body p-4 py-5 p-md-5">
+            <h1 class="text-center mb-3">Make Order</h1>
+            <form action="#" class="signup-form" name="make_order" netlify>
+              <div class="form-group mb-2">
+                <label for="name">Full Name</label>
+                <input
+                  type="text"
+                  name="customer_name"
+                  class="form-control"
+                  placeholder="John Doe"
+                />
+              </div>
+              <div class="form-group mb-2">
+                <label for="email">Email Address</label>
+                <input
+                  type="text"
+                  name="customer_email"
+                  class="form-control"
+                  placeholder="johndoe@gmail.com"
+                />
+              </div>
+              <div class="form-group mb-2">
+                <label for="phone">Phone</label>
+                <input
+                  type="phone"
+                  name="customer_phone"
+                  class="form-control"
+                  placeholder="+1(234) 567-8910"
+                />
+              </div>
+              <div class="form-group mb-2">
+                <button
+                  type="submit"
+                  class="form-control btn btn-success text-light rounded submit px-3"
+                >
+                  SUBMIT
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./paintings_files/jquery.min.js"></script>
+    <script src="./paintings_files/respond.min.js"></script>
+    <script src="./paintings_files/jquery.throttledresize.js"></script>
+    <script src="./paintings_files/masonry.pkgd-4.2.2.min-8d645c617dae902d017672ffda525cc733715da09ddf3d8e52129f0ac480f0c6.js"></script>
+    <script src="./paintings_files/lazysizes.min.js" async=""></script>
+    <script src="./paintings_files/main.js"></script>
+
+    <script>
+      var _gaq = _gaq || [];
+
+      _gaq.push(["t2._setAccount", "UA-39803438-1"]);
+      _gaq.push(["t2._trackPageview"]);
+    </script>
+
+    <!-- -->
+
+    <div id="using">
+      <a
+        target="_top"
+        href="https://www.format.com/l/your_new_portfolio?referrer=http%3A%2F%2Fandreamanning.format.com&amp;utm_medium=user-site&amp;utm_source=41156#peak"
+        >Using Format</a
+      >
+    </div>
+
+    <style type="text/css">
+      b,
+      strong {
+        font-weight: bold;
+      }
+      i,
+      em {
+        font-style: italic;
+      }
+      html body #using {
+        height: auto !important;
+        left: auto !important;
+        line-height: 1 !important;
+        margin: 0 !important;
+        opacity: 0.5 !important;
+        padding: 0 !important;
+        position: fixed !important;
+        text-indent: 0 !important;
+        top: auto !important;
+        visibility: visible !important;
+        width: auto !important;
+
+        z-index: -10 !important;
+
+        -webkit-transform: none !important;
+        -moz-transform: none !important;
+        -ms-transform: none !important;
+        -o-transform: none !important;
+        transform: none !important;
+        -webkit-font-smoothing: antialiased;
+
+        color: #555555 !important;
+
+        font-size: 11px;
+        font-family: Arial, sans-serif !important;
+        display: block !important;
+
+        bottom: 10px !important;
+
+        right: 10px !important;
+
+        word-spacing: 0px !important;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        cursor: default;
+      }
+      html body #using::before,
+      html body #using::after {
+        display: none !important;
+      }
+      #using a {
+        opacity: 1 !important;
+        z-index: 2147483647 !important;
+        display: inline !important;
+        position: static !important;
+        text-decoration: none !important;
+        border-bottom: 1px #555 solid !important;
+        padding-bottom: 0.1em;
+
+        color: #555555 !important;
+      }
+      #using a:hover {
+        color: #000000 !important;
+        border-bottom-color: #000000 !important;
+        text-decoration: none !important;
+      }
+    </style>
+
+    <div id="g024-info-wrap">
+      <div id="g024-info"></div>
+    </div>
+
+    <style type="text/css">
+      b,
+      strong {
+        font-weight: bold;
+      }
+      i,
+      em {
+        font-style: italic;
+      }
+      #g024-info-wrap {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 99999;
+        width: 101%;
+      }
+      .g024-info-class {
+        position: relative;
+        width: 100%;
+        height: 80px;
+        background-color: #f5f2ed;
+        box-shadow: 0 4px 2px -2px #dad9de;
+      }
+      .g024-info-class .computer-svg {
+        background-image: url("/static/g024_computer_icon-1353da85caca09c6b2a1b5dba851ece8f6c48abacfbc87a75eea2b63e4a72729.svg");
+        display: block;
+        width: 40px;
+        height: 27px;
+        position: absolute;
+        left: 12px;
+        top: 25px;
+        background-repeat: no-repeat;
+      }
+      .g024-info-class .close-icon-svg {
+        background-image: url("/static/g024_close_icon-14b56df6978661077225d9afd540dba457eb66a919718b90d3c1cff876c4e119.svg");
+        background-color: transparent;
+        border: none;
+        display: block;
+        width: 19px;
+        height: 19px;
+        position: absolute;
+        right: 16px;
+        top: 16px;
+        background-repeat: no-repeat;
+      }
+      .g024-info-class .content {
+        display: block;
+        padding-left: 62px;
+        font-size: 14px;
+        color: #151515;
+      }
+      .g024-info-class .title-text {
+        margin-top: 0;
+        padding-top: 9px;
+        font-weight: bold;
+      }
+      .g024-info-class .main-text {
+        margin-top: -9px;
+        font-size: 12px;
+        padding-right: 55px;
+        margin-bottom: 0;
+        line-height: 16px;
+        padding-top: 13px;
+      }
+    </style>
+
+    <script type="text/javascript">
+      function getUrlVars() {
+        var vars = {};
+        var parts = window.location.href.replace(
+          /[?&]+([^=&]+)=([^&]*)/gi,
+          function (m, key, value) {
+            vars[key] = value;
+          }
+        );
+        return vars;
+      }
+
+      var getCookie = function (name) {
+        var value = "; " + document.cookie;
+        var parts = value.split("; " + name + "=");
+        if (parts.length == 2) return parts.pop().split(";").shift();
+      };
+
+      var handleCloseInfoClick = function () {
+        document.cookie = "G024_info_closed=yes";
+        var $info = document.getElementById("g024-info");
+        var $mainContainer = document.getElementsByClassName("container")[0];
+        var $header = document.getElementsByClassName("header")[0];
+        $info.parentNode.removeChild($info);
+        $mainContainer.style.marginTop = "0";
+        $header.style.top = "0";
+      };
+
+      var createComputerSvg = function () {
+        var computerSvg = document.createElement("span");
+        computerSvg.className = "computer-svg";
+
+        return computerSvg;
+      };
+
+      var createContent = function () {
+        var content = document.createElement("div");
+        content.className = "content";
+        var titleText = document.createElement("p");
+        titleText.className = "title-text";
+        var mainText = document.createElement("p");
+        mainText.className = "main-text";
+
+        titleText.textContent = "Your website preview.";
+        mainText.textContent =
+          "Log in on your desktop to change the Theme, add content and customize the design.";
+
+        content.append(titleText);
+        content.append(mainText);
+
+        return content;
+      };
+
+      var createCloseIconSvg = function () {
+        var closeIconSvg = document.createElement("button");
+        closeIconSvg.className = "close-icon-svg";
+        closeIconSvg.onclick = handleCloseInfoClick;
+
+        return closeIconSvg;
+      };
+
+      document.addEventListener("DOMContentLoaded", function () {
+        var cookieVal = getCookie("G024_info_closed");
+        var $info = document.getElementById("g024-info");
+        var $mainContainer = document.getElementsByClassName("container")[0];
+        var $header = document.getElementsByClassName("header")[0];
+        if (
+          getUrlVars().mobiledeviceinfo === "true" &&
+          cookieVal !== "yes" &&
+          $(window).width() <= 768
+        ) {
+          $info.classList.add("g024-info-class");
+          $info.appendChild(createComputerSvg());
+          $info.appendChild(createContent());
+          $info.appendChild(createCloseIconSvg());
+          $mainContainer.style.marginTop = "80px";
+          $header.style.top = "80px";
+        }
+      });
+    </script>
+    <div id="popup-content"></div>
+
+    <style type="text/css">
+      /* Image Protection */
+      #image_protection_notice {
+        color: #000;
+        padding: 8px 8px;
+        width: 200px;
+        font-size: 11px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        -moz-border-radius: 4px;
+        -webkit-border-radius: 4px;
+        border-radius: 4px;
+        background: #fff;
+        box-shadow: 0 0 5px #222;
+        -webkit-box-shadow: 0 0 5px #222;
+        -moz-box-shadow: 0 0 5px #222;
+        box-shadow: 0 0 5px #222;
+      }
+    </style>
+
+    <script type="text/javascript">
+      //<![CDATA[
+      var _4ORMAT_DATA = {
+        asset_base_path:
+          "https://bucket1.format-assets.com/theme_versions/8192484/assets/",
+        app_domain: "www.format.com",
+        page: {
+          id: 2279734,
+          hide_using_4ormat: false,
+          type: "gallery",
+          layout: "vertical",
+          name: "Paintings",
+          image_width: null,
+          layout_options: null,
+          category_id: null,
+          dependencies: { fonts: { "4ormat": true } },
+          url: "/2279734-paintings",
+          access_control: "online",
+          title: null,
+          assets: [
+            {
+              id: 19022547,
+              type: "image",
+              copy_alignment: "only",
+              copy: "<p>Untitled, 2010, 29x30 inches, Acrylic Paint, String on Wallpaper </p>",
+              width: 0,
+              copy_width: 0,
+              scaled_image_width: 0,
+              tag: null,
+              alt_text: "",
+              filename: null,
+              vfs_file_id: 2268145,
+              dominant_color: "#93300B",
+              image_url_2500x0:
+                "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2288,2467,2500,2467/0-0-0/fb7aca3a-dd56-473d-8f47-b36c8971c7d9/1/1/P1050400.JPG?fjkss=exp=1968183298~hmac=b79acd512e0610640cb60279841f0577e6cb1fb820a43b63a8a5812a0d139b2f",
+              image_dimensions_2500x0: [2288, 2467],
+              image_uncropped_dimensions_2500x0: [2288, 2467],
+              image_url_900x0:
+                "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2288,2467,900,2467/0-0-0/fb7aca3a-dd56-473d-8f47-b36c8971c7d9/1/1/P1050400.JPG?fjkss=exp=1968183298~hmac=ca3cf1db73820e6cae5a9aae840f65073c0257b4dab0ab78d89fb886f5f50de3",
+              image_dimensions_900x0: [900, 970],
+              image_uncropped_dimensions_900x0: [900, 970],
+              image_url_700x0:
+                "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2288,2467,700,2467/0-0-0/fb7aca3a-dd56-473d-8f47-b36c8971c7d9/1/1/P1050400.JPG?fjkss=exp=1968183298~hmac=94a898aba2f8f91ded09f8527aaf7b6466442bacc8adfa0f2387e834c63fbe6a",
+              image_dimensions_700x0: [700, 755],
+              image_uncropped_dimensions_700x0: [700, 755],
+              image_url_550x0:
+                "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2288,2467,550,2467/0-0-0/fb7aca3a-dd56-473d-8f47-b36c8971c7d9/1/1/P1050400.JPG?fjkss=exp=1968183298~hmac=0a3e5f0a25ef88985900ba01efe9e983d9313fd1630f7d6b98a22f3c081d93d5",
+              image_dimensions_550x0: [550, 593],
+              image_uncropped_dimensions_550x0: [550, 593],
+              image_url_400x0:
+                "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2288,2467,400,2467/0-0-0/fb7aca3a-dd56-473d-8f47-b36c8971c7d9/1/1/P1050400.JPG?fjkss=exp=1968183298~hmac=b9d6a41f9f5125b5cc155fc1ebaf86194dfd00da5981f36f4bd3282038c2266d",
+              image_dimensions_400x0: [400, 431],
+              image_uncropped_dimensions_400x0: [400, 431],
+              image_url_300x0:
+                "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2288,2467,300,2467/0-0-0/fb7aca3a-dd56-473d-8f47-b36c8971c7d9/1/1/P1050400.JPG?fjkss=exp=1968183298~hmac=cd20e8fa752858fec1cdf74dcaf5b9958783f2b7b5be09b00a0264819c8355b3",
+              image_dimensions_300x0: [300, 323],
+              image_uncropped_dimensions_300x0: [300, 323],
+              image_url_0x900:
+                "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2288,2467,2288,900/0-0-0/fb7aca3a-dd56-473d-8f47-b36c8971c7d9/1/1/P1050400.JPG?fjkss=exp=1968183298~hmac=b762bcac447ebdcca77147ff44bb3d11aaaaaa5c60f01c438139010d7710dda8",
+              image_dimensions_0x900: [835, 900],
+              image_uncropped_dimensions_0x900: [835, 900],
+              image_url_0x700:
+                "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2288,2467,2288,700/0-0-0/fb7aca3a-dd56-473d-8f47-b36c8971c7d9/1/1/P1050400.JPG?fjkss=exp=1968183298~hmac=e57e05cc09047cdb64f42637712124c9a5fc4b04388ffd9733ab51785dfd5c4b",
+              image_dimensions_0x700: [649, 700],
+              image_uncropped_dimensions_0x700: [649, 700],
+              image_url_0x550:
+                "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2288,2467,2288,550/0-0-0/fb7aca3a-dd56-473d-8f47-b36c8971c7d9/1/1/P1050400.JPG?fjkss=exp=1968183298~hmac=6a30ea05cba80a6b44351593b53d6bbae5d3c8f00bc5724a3435f899c5fa2190",
+              image_dimensions_0x550: [510, 550],
+              image_uncropped_dimensions_0x550: [510, 550],
+              image_url_0x400:
+                "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2288,2467,2288,400/0-0-0/fb7aca3a-dd56-473d-8f47-b36c8971c7d9/1/1/P1050400.JPG?fjkss=exp=1968183298~hmac=c802e8bc78bceebdf025d9943b5cc0a56c609b77a22756d0722e71913c415b47",
+              image_dimensions_0x400: [371, 400],
+              image_uncropped_dimensions_0x400: [371, 400],
+              image_url_0x300:
+                "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2288,2467,2288,300/0-0-0/fb7aca3a-dd56-473d-8f47-b36c8971c7d9/1/1/P1050400.JPG?fjkss=exp=1968183298~hmac=5092bd5aafb965eb698f8e668512cfa77cefb028bff6f6fa834394f65f473e32",
+              image_dimensions_0x300: [278, 300],
+              image_uncropped_dimensions_0x300: [278, 300],
+              image_url_150x0:
+                "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2288,2467,150,2467/0-0-0/fb7aca3a-dd56-473d-8f47-b36c8971c7d9/1/1/P1050400.JPG?fjkss=exp=1968183298~hmac=d9203106087d25d9f0334ee0e7b2fa0e339300bbea34415b8f61e0d6b63573ad",
+              image_dimensions_150x0: [150, 162],
+              image_uncropped_dimensions_150x0: [150, 162],
+              image_url_0x150:
+                "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2288,2467,2288,150/0-0-0/fb7aca3a-dd56-473d-8f47-b36c8971c7d9/1/1/P1050400.JPG?fjkss=exp=1968183298~hmac=852667d65e3cb895e1fc71f7e2169e1d8a3ad8a23c40945ace829f824dfe0094",
+              image_dimensions_0x150: [139, 150],
+              image_uncropped_dimensions_0x150: [139, 150],
+              image_url_0x1200:
+                "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2288,2467,2288,1200/0-0-0/fb7aca3a-dd56-473d-8f47-b36c8971c7d9/1/1/P1050400.JPG?fjkss=exp=1968183298~hmac=26171c66a45475b76fe6f99a9f4d8839f1a74f7a0bd142638e4edd3611a4b707",
+              image_dimensions_0x1200: [1113, 1200],
+              image_uncropped_dimensions_0x1200: [1113, 1200],
+              image_url_1600x0:
+                "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2288,2467,1600,2467/0-0-0/fb7aca3a-dd56-473d-8f47-b36c8971c7d9/1/1/P1050400.JPG?fjkss=exp=1968183298~hmac=323c2dc425d1898fd4c0bdffa426c0d365bc0775af627a6d57bd027cf32043a0",
+              image_dimensions_1600x0: [1600, 1725],
+              image_uncropped_dimensions_1600x0: [1600, 1725],
+              image_url_1200x0:
+                "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2288,2467,1200,2467/0-0-0/fb7aca3a-dd56-473d-8f47-b36c8971c7d9/1/1/P1050400.JPG?fjkss=exp=1968183298~hmac=5504dfc85d6d82f64379dcd20599c96278752c2a5047f66d9dbe6ea21374f5f4",
+              image_dimensions_1200x0: [1200, 1294],
+              image_uncropped_dimensions_1200x0: [1200, 1294],
+              image_url_800x800:
+                "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2288,2467,800,800/0-0-0/fb7aca3a-dd56-473d-8f47-b36c8971c7d9/1/2/P1050400.JPG?fjkss=exp=1968183298~hmac=b056bf461629cbe52cca32c286eb6c5b80d19c87aa4562f4ced0cd2ad81ea33a",
+              image_dimensions_800x800: [800, 800],
+              image_uncropped_dimensions_800x800: [800, 800],
+              image_url_600x600:
+                "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2288,2467,600,600/0-0-0/fb7aca3a-dd56-473d-8f47-b36c8971c7d9/1/2/P1050400.JPG?fjkss=exp=1968183298~hmac=4f206ff51458ad161ca76e30efa57688d2e2918ad14b4f5b92590bdd5fc12584",
+              image_dimensions_600x600: [600, 600],
+              image_uncropped_dimensions_600x600: [600, 600],
+              image_url_400x400:
+                "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2288,2467,400,400/0-0-0/fb7aca3a-dd56-473d-8f47-b36c8971c7d9/1/2/P1050400.JPG?fjkss=exp=1968183298~hmac=78e159fef06428b048c0a825184e81f7a2bd97a6f2a753e4ed61f69529832f0e",
+              image_dimensions_400x400: [400, 400],
+              image_uncropped_dimensions_400x400: [400, 400],
+              image_url_300x300:
+                "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2288,2467,300,300/0-0-0/fb7aca3a-dd56-473d-8f47-b36c8971c7d9/1/2/P1050400.JPG?fjkss=exp=1968183298~hmac=8832f933a0930a2978c5bd203ed98d5e49f8f44d7f97ac17549b9242e4f2e376",
+              image_dimensions_300x300: [300, 300],
+              image_uncropped_dimensions_300x300: [300, 300],
+              image_url_200x200:
+                "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2288,2467,200,200/0-0-0/fb7aca3a-dd56-473d-8f47-b36c8971c7d9/1/2/P1050400.JPG?fjkss=exp=1968183298~hmac=42769ce2e39f284ef5f13aa82643c95dfebee304e3a2c7b520fe2adf8fe644a7",
+              image_dimensions_200x200: [200, 200],
+              image_uncropped_dimensions_200x200: [200, 200],
+              image_url_100x100:
+                "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2288,2467,100,100/0-0-0/fb7aca3a-dd56-473d-8f47-b36c8971c7d9/1/2/P1050400.JPG?fjkss=exp=1968183298~hmac=633901b5385b11e30e6fad6bfe84676c0ae199ef787d87d0bcb3910aa62a1e93",
+              image_dimensions_100x100: [100, 100],
+              image_uncropped_dimensions_100x100: [100, 100],
+              image_url_40x40:
+                "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2288,2467,40,40/0-0-0/fb7aca3a-dd56-473d-8f47-b36c8971c7d9/1/2/P1050400.JPG?fjkss=exp=1968183298~hmac=f8466fb0145be3d6fb3ac905fd13ecc8bc4cd5bd64abc634753a6ebdd2d08372",
+              image_dimensions_40x40: [40, 40],
+              image_uncropped_dimensions_40x40: [40, 40],
+              image_url_600x405:
+                "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2288,2467,600,405/0-0-0/fb7aca3a-dd56-473d-8f47-b36c8971c7d9/1/2/P1050400.JPG?fjkss=exp=1968183298~hmac=b8ec173b7a676942c641b800697d7fed37ef4b3e193e803068ad6352939aae1c",
+              image_dimensions_600x405: [600, 405],
+              image_uncropped_dimensions_600x405: [600, 405],
+              image_url_400x270:
+                "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2288,2467,400,270/0-0-0/fb7aca3a-dd56-473d-8f47-b36c8971c7d9/1/2/P1050400.JPG?fjkss=exp=1968183298~hmac=e7f00325c86b2f9f21338a095bbb3dc5a837e7e9d34620e76890eacede56d609",
+              image_dimensions_400x270: [400, 270],
+              image_uncropped_dimensions_400x270: [400, 270],
+              image_url_300x203:
+                "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2288,2467,300,203/0-0-0/fb7aca3a-dd56-473d-8f47-b36c8971c7d9/1/2/P1050400.JPG?fjkss=exp=1968183298~hmac=42b1234b879424b68e1ab2825b2719765d36b12707a2ca20b75db07f356a5682",
+              image_dimensions_300x203: [300, 203],
+              image_uncropped_dimensions_300x203: [300, 203],
+              image_url_960x648:
+                "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2288,2467,960,648/0-0-0/fb7aca3a-dd56-473d-8f47-b36c8971c7d9/1/2/P1050400.JPG?fjkss=exp=1968183298~hmac=9ffc9e2d64f9f169cb71775c9d8df56620af4bbd7a857fe04a61aa5cd1944068",
+              image_dimensions_960x648: [960, 648],
+              image_uncropped_dimensions_960x648: [960, 648],
+              image_url_200x135:
+                "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2288,2467,200,135/0-0-0/fb7aca3a-dd56-473d-8f47-b36c8971c7d9/1/2/P1050400.JPG?fjkss=exp=1968183298~hmac=05a0b4933da2438911a7cfef81747167c343f71bd3ecf2c803a8537c8d9abe09",
+              image_dimensions_200x135: [200, 135],
+              image_uncropped_dimensions_200x135: [200, 135],
+              image_url_640x264:
+                "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2288,2467,640,264/0-0-0/fb7aca3a-dd56-473d-8f47-b36c8971c7d9/1/2/P1050400.JPG?fjkss=exp=1968183298~hmac=acadbac8324919c03d69625f83899bf15ffcd12d26774449208372df2d27bf28",
+              image_dimensions_640x264: [640, 264],
+              image_uncropped_dimensions_640x264: [640, 264],
+              image_url_750x264:
+                "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2288,2467,750,264/0-0-0/fb7aca3a-dd56-473d-8f47-b36c8971c7d9/1/2/P1050400.JPG?fjkss=exp=1968183298~hmac=a0edcd00628a7982690107b7d23a0f7fbd4359fa4d2b8ed957a4e99b6fd64add",
+              image_dimensions_750x264: [750, 264],
+              image_uncropped_dimensions_750x264: [750, 264],
+              image_url_1242x264:
+                "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2288,2467,1242,264/0-0-0/fb7aca3a-dd56-473d-8f47-b36c8971c7d9/1/2/P1050400.JPG?fjkss=exp=1968183298~hmac=40128660725d30c1c5d012d64fc1003a1f122600c9e3cea0100f656b77e9096f",
+              image_dimensions_1242x264: [1242, 264],
+              image_uncropped_dimensions_1242x264: [1242, 264],
+              image_url_190x60:
+                "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2288,2467,190,60/0-0-0/fb7aca3a-dd56-473d-8f47-b36c8971c7d9/1/1/P1050400.JPG?fjkss=exp=1968183298~hmac=e228ee8317c4b18bccc6b5230878a8ecf64c26a6d78036501f043ec0fa06a759",
+              image_dimensions_190x60: [56, 60],
+              image_uncropped_dimensions_190x60: [56, 60],
+              image_url_750x90:
+                "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2288,2467,750,90/0-0-0/fb7aca3a-dd56-473d-8f47-b36c8971c7d9/1/1/P1050400.JPG?fjkss=exp=1968183298~hmac=834f140d6d95c79af54cb425e4a6446155ba5d453af0160ec4dd2042a4b8a605",
+              image_dimensions_750x90: [83, 90],
+              image_uncropped_dimensions_750x90: [83, 90],
+              image_url_1600x1200:
+                "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2288,2467,1600,2467/0-0-0/fb7aca3a-dd56-473d-8f47-b36c8971c7d9/1/1/P1050400.JPG?fjkss=exp=1968183298~hmac=323c2dc425d1898fd4c0bdffa426c0d365bc0775af627a6d57bd027cf32043a0",
+              image_dimensions_1600x1200: [1600, 1725],
+              image_uncropped_dimensions_1600x1200: [1600, 1725],
+            },
+            {
+              id: 19022546,
+              type: "image",
+              copy_alignment: "only",
+              copy: "<p>How I Came to Glasgow, 2010, 9x12, Mixed Media<br><br> </p>",
+              width: 0,
+              copy_width: 0,
+              scaled_image_width: 0,
+              tag: null,
+              alt_text: "",
+              filename: null,
+              vfs_file_id: 2268146,
+              dominant_color: "#056EB0",
+              image_url_2500x0:
+                "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2703,3156,2500,3156/0-0-0/d4a57e5b-ab56-4eb5-9b36-8032af1e694c/1/1/P1050401_2.jpg?fjkss=exp=1968183298~hmac=5c17fbfa4e581d6d0adb29565f221c7ec1da988355090055308d26367b0714df",
+              image_dimensions_2500x0: [2500, 2919],
+              image_uncropped_dimensions_2500x0: [2500, 2919],
+              image_url_900x0:
+                "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2703,3156,900,3156/0-0-0/d4a57e5b-ab56-4eb5-9b36-8032af1e694c/1/1/P1050401_2.jpg?fjkss=exp=1968183298~hmac=8cb07e91428d792df8003c31a31e11f5d8ccf6023eda48321867f6be398b01b2",
+              image_dimensions_900x0: [900, 1051],
+              image_uncropped_dimensions_900x0: [900, 1051],
+              image_url_700x0:
+                "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2703,3156,700,3156/0-0-0/d4a57e5b-ab56-4eb5-9b36-8032af1e694c/1/1/P1050401_2.jpg?fjkss=exp=1968183298~hmac=cf4ec08d0b9ddcb4ac43235961ff858c42048d858653a944e0f9b456ae8baa67",
+              image_dimensions_700x0: [700, 817],
+              image_uncropped_dimensions_700x0: [700, 817],
+              image_url_550x0:
+                "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2703,3156,550,3156/0-0-0/d4a57e5b-ab56-4eb5-9b36-8032af1e694c/1/1/P1050401_2.jpg?fjkss=exp=1968183298~hmac=1f165feecc4ad5f404174b2e423b30ea4d754fbdfd9ff149d55625037e0588fd",
+              image_dimensions_550x0: [550, 642],
+              image_uncropped_dimensions_550x0: [550, 642],
+              image_url_400x0:
+                "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2703,3156,400,3156/0-0-0/d4a57e5b-ab56-4eb5-9b36-8032af1e694c/1/1/P1050401_2.jpg?fjkss=exp=1968183298~hmac=9956f4a628b28fe79e521259fad580a5e1ba1a4b82b907d9456093e37fd645c5",
+              image_dimensions_400x0: [400, 467],
+              image_uncropped_dimensions_400x0: [400, 467],
+              image_url_300x0:
+                "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2703,3156,300,3156/0-0-0/d4a57e5b-ab56-4eb5-9b36-8032af1e694c/1/1/P1050401_2.jpg?fjkss=exp=1968183298~hmac=8d20fe37886a2220aec562b2668542a46d8fc546999a571794540d7bfa0d1b1d",
+              image_dimensions_300x0: [300, 350],
+              image_uncropped_dimensions_300x0: [300, 350],
+              image_url_0x900:
+                "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2703,3156,2703,900/0-0-0/d4a57e5b-ab56-4eb5-9b36-8032af1e694c/1/1/P1050401_2.jpg?fjkss=exp=1968183298~hmac=a5f2bbad9e77bcc488d372e4fd87ec59d0995ba400e7e6ede92ae20c28d525b2",
+              image_dimensions_0x900: [771, 900],
+              image_uncropped_dimensions_0x900: [771, 900],
+              image_url_0x700:
+                "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2703,3156,2703,700/0-0-0/d4a57e5b-ab56-4eb5-9b36-8032af1e694c/1/1/P1050401_2.jpg?fjkss=exp=1968183298~hmac=e9d8a145694f6c3540f73f92297583ba6cd299f073c9979f137f16b74113d670",
+              image_dimensions_0x700: [600, 700],
+              image_uncropped_dimensions_0x700: [600, 700],
+              image_url_0x550:
+                "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2703,3156,2703,550/0-0-0/d4a57e5b-ab56-4eb5-9b36-8032af1e694c/1/1/P1050401_2.jpg?fjkss=exp=1968183298~hmac=058bd13ae2b3e2163cc385a91349a43e8f07df033ce9c5258ae7d1f5b5fca859",
+              image_dimensions_0x550: [471, 550],
+              image_uncropped_dimensions_0x550: [471, 550],
+              image_url_0x400:
+                "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2703,3156,2703,400/0-0-0/d4a57e5b-ab56-4eb5-9b36-8032af1e694c/1/1/P1050401_2.jpg?fjkss=exp=1968183298~hmac=b7608daf5f26a0010f9c07dace4ada52e75953979071fbef3ab726f3100d2cc4",
+              image_dimensions_0x400: [343, 400],
+              image_uncropped_dimensions_0x400: [343, 400],
+              image_url_0x300:
+                "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2703,3156,2703,300/0-0-0/d4a57e5b-ab56-4eb5-9b36-8032af1e694c/1/1/P1050401_2.jpg?fjkss=exp=1968183298~hmac=5e23e01d9cc301a7e0edb6f164e4f92460825590b809cd9e002a45ff08285553",
+              image_dimensions_0x300: [257, 300],
+              image_uncropped_dimensions_0x300: [257, 300],
+              image_url_150x0:
+                "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2703,3156,150,3156/0-0-0/d4a57e5b-ab56-4eb5-9b36-8032af1e694c/1/1/P1050401_2.jpg?fjkss=exp=1968183298~hmac=22d228b44199bea7b59317051157db45a2dba17fbd687a3dc52231841e5b8750",
+              image_dimensions_150x0: [150, 175],
+              image_uncropped_dimensions_150x0: [150, 175],
+              image_url_0x150:
+                "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2703,3156,2703,150/0-0-0/d4a57e5b-ab56-4eb5-9b36-8032af1e694c/1/1/P1050401_2.jpg?fjkss=exp=1968183298~hmac=86ee54b79d933b106a8c0a2c3dcd4fdf93237eef9d30db3a48e4abb46ffa5d42",
+              image_dimensions_0x150: [128, 150],
+              image_uncropped_dimensions_0x150: [128, 150],
+              image_url_0x1200:
+                "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2703,3156,2703,1200/0-0-0/d4a57e5b-ab56-4eb5-9b36-8032af1e694c/1/1/P1050401_2.jpg?fjkss=exp=1968183298~hmac=a81ebc752447a9540617cbf28b1e25fabe8d2ed208e603bdac4ffe1af75ee306",
+              image_dimensions_0x1200: [1028, 1200],
+              image_uncropped_dimensions_0x1200: [1028, 1200],
+              image_url_1600x0:
+                "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2703,3156,1600,3156/0-0-0/d4a57e5b-ab56-4eb5-9b36-8032af1e694c/1/1/P1050401_2.jpg?fjkss=exp=1968183298~hmac=06a945f8c874768e9f04a2b1fa71a1b9118db5d1fc9afffacd60f44b721b898f",
+              image_dimensions_1600x0: [1600, 1868],
+              image_uncropped_dimensions_1600x0: [1600, 1868],
+              image_url_1200x0:
+                "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2703,3156,1200,3156/0-0-0/d4a57e5b-ab56-4eb5-9b36-8032af1e694c/1/1/P1050401_2.jpg?fjkss=exp=1968183298~hmac=9c78059797a0d95eb9c609ba317a313c49a1bd57e490aa6320bd2b52028ec53b",
+              image_dimensions_1200x0: [1200, 1401],
+              image_uncropped_dimensions_1200x0: [1200, 1401],
+              image_url_800x800:
+                "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2703,3156,800,800/0-0-0/d4a57e5b-ab56-4eb5-9b36-8032af1e694c/1/2/P1050401_2.jpg?fjkss=exp=1968183298~hmac=b64cf73567d694a60d778cba04368b2205cb08e2daf556c8ecf14bdc405bb0e1",
+              image_dimensions_800x800: [800, 800],
+              image_uncropped_dimensions_800x800: [800, 800],
+              image_url_600x600:
+                "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2703,3156,600,600/0-0-0/d4a57e5b-ab56-4eb5-9b36-8032af1e694c/1/2/P1050401_2.jpg?fjkss=exp=1968183298~hmac=ce3e077aca2417a0cc8156026c533813902015ac043843b5da910cf7083d43a5",
+              image_dimensions_600x600: [600, 600],
+              image_uncropped_dimensions_600x600: [600, 600],
+              image_url_400x400:
+                "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2703,3156,400,400/0-0-0/d4a57e5b-ab56-4eb5-9b36-8032af1e694c/1/2/P1050401_2.jpg?fjkss=exp=1968183298~hmac=f419ec446d5c793a3b1aceafd6979f1906d91a1e561f4bf109b01f10fd893a3f",
+              image_dimensions_400x400: [400, 400],
+              image_uncropped_dimensions_400x400: [400, 400],
+              image_url_300x300:
+                "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2703,3156,300,300/0-0-0/d4a57e5b-ab56-4eb5-9b36-8032af1e694c/1/2/P1050401_2.jpg?fjkss=exp=1968183298~hmac=7ee05bb6d2872bf58215dffad0174fed515089d428fe297e386eda13c2c33ca2",
+              image_dimensions_300x300: [300, 300],
+              image_uncropped_dimensions_300x300: [300, 300],
+              image_url_200x200:
+                "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2703,3156,200,200/0-0-0/d4a57e5b-ab56-4eb5-9b36-8032af1e694c/1/2/P1050401_2.jpg?fjkss=exp=1968183298~hmac=e6b0996719dc425306dce0944adc0e53c9d316299f19f4051df072f22ee6f21f",
+              image_dimensions_200x200: [200, 200],
+              image_uncropped_dimensions_200x200: [200, 200],
+              image_url_100x100:
+                "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2703,3156,100,100/0-0-0/d4a57e5b-ab56-4eb5-9b36-8032af1e694c/1/2/P1050401_2.jpg?fjkss=exp=1968183298~hmac=1694211e5ee33a3c7ce0b13f7bbf22d12165758a828d7f4e7becff44d9fea92d",
+              image_dimensions_100x100: [100, 100],
+              image_uncropped_dimensions_100x100: [100, 100],
+              image_url_40x40:
+                "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2703,3156,40,40/0-0-0/d4a57e5b-ab56-4eb5-9b36-8032af1e694c/1/2/P1050401_2.jpg?fjkss=exp=1968183298~hmac=f7da962fdee503f813d2b755cdf96e98719db978081f78a5724ce0ea70853c29",
+              image_dimensions_40x40: [40, 40],
+              image_uncropped_dimensions_40x40: [40, 40],
+              image_url_600x405:
+                "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2703,3156,600,405/0-0-0/d4a57e5b-ab56-4eb5-9b36-8032af1e694c/1/2/P1050401_2.jpg?fjkss=exp=1968183298~hmac=ca87d3005943ead8ffa9ed58d0198d018547a0835112f26a4cda12effaac027e",
+              image_dimensions_600x405: [600, 405],
+              image_uncropped_dimensions_600x405: [600, 405],
+              image_url_400x270:
+                "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2703,3156,400,270/0-0-0/d4a57e5b-ab56-4eb5-9b36-8032af1e694c/1/2/P1050401_2.jpg?fjkss=exp=1968183298~hmac=6f3d7a925c55293f98248421f169b9de4dca0b128bf3b4d1a6f062cbf5a4ea58",
+              image_dimensions_400x270: [400, 270],
+              image_uncropped_dimensions_400x270: [400, 270],
+              image_url_300x203:
+                "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2703,3156,300,203/0-0-0/d4a57e5b-ab56-4eb5-9b36-8032af1e694c/1/2/P1050401_2.jpg?fjkss=exp=1968183298~hmac=ef6bf908b6a9a2b16c2e929225ec8438b243fdd18c62164de2f1caa0ba48790b",
+              image_dimensions_300x203: [300, 203],
+              image_uncropped_dimensions_300x203: [300, 203],
+              image_url_960x648:
+                "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2703,3156,960,648/0-0-0/d4a57e5b-ab56-4eb5-9b36-8032af1e694c/1/2/P1050401_2.jpg?fjkss=exp=1968183298~hmac=e8fdc5b14045cba1307e3803ffcc261ee891c280d6838a558a6c7e2f40360986",
+              image_dimensions_960x648: [960, 648],
+              image_uncropped_dimensions_960x648: [960, 648],
+              image_url_200x135:
+                "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2703,3156,200,135/0-0-0/d4a57e5b-ab56-4eb5-9b36-8032af1e694c/1/2/P1050401_2.jpg?fjkss=exp=1968183298~hmac=9d2add8a5f6a856d72ee5b894ed76cb7ffae718fbe749a808712dd898f781f13",
+              image_dimensions_200x135: [200, 135],
+              image_uncropped_dimensions_200x135: [200, 135],
+              image_url_640x264:
+                "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2703,3156,640,264/0-0-0/d4a57e5b-ab56-4eb5-9b36-8032af1e694c/1/2/P1050401_2.jpg?fjkss=exp=1968183298~hmac=caf0816de91a32dd9fa19560bec1116950b302e1f684a1c746a24d31cb8bdebf",
+              image_dimensions_640x264: [640, 264],
+              image_uncropped_dimensions_640x264: [640, 264],
+              image_url_750x264:
+                "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2703,3156,750,264/0-0-0/d4a57e5b-ab56-4eb5-9b36-8032af1e694c/1/2/P1050401_2.jpg?fjkss=exp=1968183298~hmac=c1ea839eec47806fa932ae1bb5925cf3ed64453cc350cddb2168fd425ddae522",
+              image_dimensions_750x264: [750, 264],
+              image_uncropped_dimensions_750x264: [750, 264],
+              image_url_1242x264:
+                "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2703,3156,1242,264/0-0-0/d4a57e5b-ab56-4eb5-9b36-8032af1e694c/1/2/P1050401_2.jpg?fjkss=exp=1968183298~hmac=ce3d8a03f34fc86fc3ff9c263faa32b6cb8196aa2b240fc2425d3e712768cdb3",
+              image_dimensions_1242x264: [1242, 264],
+              image_uncropped_dimensions_1242x264: [1242, 264],
+              image_url_190x60:
+                "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2703,3156,190,60/0-0-0/d4a57e5b-ab56-4eb5-9b36-8032af1e694c/1/1/P1050401_2.jpg?fjkss=exp=1968183298~hmac=ca5673a7db7c0f4c44e2bbed11b4f432065bc9d086594540d05b3d849b24c5fd",
+              image_dimensions_190x60: [51, 60],
+              image_uncropped_dimensions_190x60: [51, 60],
+              image_url_750x90:
+                "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2703,3156,750,90/0-0-0/d4a57e5b-ab56-4eb5-9b36-8032af1e694c/1/1/P1050401_2.jpg?fjkss=exp=1968183298~hmac=b80c6667b93773a029cf662a30604e01110cca9719953f2618fb120ec3803647",
+              image_dimensions_750x90: [77, 90],
+              image_uncropped_dimensions_750x90: [77, 90],
+              image_url_1600x1200:
+                "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,2703,3156,1600,3156/0-0-0/d4a57e5b-ab56-4eb5-9b36-8032af1e694c/1/1/P1050401_2.jpg?fjkss=exp=1968183298~hmac=06a945f8c874768e9f04a2b1fa71a1b9118db5d1fc9afffacd60f44b721b898f",
+              image_dimensions_1600x1200: [1600, 1868],
+              image_uncropped_dimensions_1600x1200: [1600, 1868],
+            },
+          ],
+          asset_offset_position: null,
+          last_asset_position: -1,
+          is_homepage: false,
+          is_title_page: false,
+          is_title_page_without_variables: false,
+          cover_image: {
+            dominant_color: "#056EB0",
+            image_url_2500x0:
+              "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,227,2703,2930,2500,2500/0-0-0/d4a57e5b-ab56-4eb5-9b36-8032af1e694c/1/2/P1050401_2.jpg?fjkss=exp=1968183299~hmac=b296c5af403d835956c1c1084edd929b82e0b719051ee9869f1b97f88022ceb9",
+            image_dimensions_2500x0: [2500, 2500],
+            image_uncropped_dimensions_2500x0: [2500, 2918],
+            image_url_900x0:
+              "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,227,2703,2930,900,900/0-0-0/d4a57e5b-ab56-4eb5-9b36-8032af1e694c/1/2/P1050401_2.jpg?fjkss=exp=1968183299~hmac=d0537412391394f2b904b24169eb0edf293a26a4bb7a1c0281589dc058e2fecd",
+            image_dimensions_900x0: [900, 900],
+            image_uncropped_dimensions_900x0: [900, 1050],
+            image_url_700x0:
+              "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,227,2703,2930,700,700/0-0-0/d4a57e5b-ab56-4eb5-9b36-8032af1e694c/1/2/P1050401_2.jpg?fjkss=exp=1968183299~hmac=45f0674f2f4ea1c06dda32e012eed3553794708ede5041c6aaffcdd5d99ab2d3",
+            image_dimensions_700x0: [700, 700],
+            image_uncropped_dimensions_700x0: [700, 817],
+            image_url_550x0:
+              "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,227,2703,2930,550,550/0-0-0/d4a57e5b-ab56-4eb5-9b36-8032af1e694c/1/2/P1050401_2.jpg?fjkss=exp=1968183299~hmac=9a572fb06d17148c1f361438e9be062cb718a6b19c420bede785191c1a7003e2",
+            image_dimensions_550x0: [550, 550],
+            image_uncropped_dimensions_550x0: [550, 642],
+            image_url_400x0:
+              "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,227,2703,2930,400,400/0-0-0/d4a57e5b-ab56-4eb5-9b36-8032af1e694c/1/2/P1050401_2.jpg?fjkss=exp=1968183299~hmac=9aa1c196585d1c32d645631066fc8198c451a76fca1451c446623814167fc8d7",
+            image_dimensions_400x0: [400, 400],
+            image_uncropped_dimensions_400x0: [400, 467],
+            image_url_300x0:
+              "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,227,2703,2930,300,300/0-0-0/d4a57e5b-ab56-4eb5-9b36-8032af1e694c/1/2/P1050401_2.jpg?fjkss=exp=1968183299~hmac=8013b2fe9cb5927f286d16a632a186db1314f10e6bc1b930635e86bf559275c6",
+            image_dimensions_300x0: [300, 300],
+            image_uncropped_dimensions_300x0: [300, 350],
+            image_url_0x900:
+              "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,227,2703,2930,900,900/0-0-0/d4a57e5b-ab56-4eb5-9b36-8032af1e694c/1/2/P1050401_2.jpg?fjkss=exp=1968183299~hmac=d0537412391394f2b904b24169eb0edf293a26a4bb7a1c0281589dc058e2fecd",
+            image_dimensions_0x900: [900, 900],
+            image_uncropped_dimensions_0x900: [770, 900],
+            image_url_0x700:
+              "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,227,2703,2930,700,700/0-0-0/d4a57e5b-ab56-4eb5-9b36-8032af1e694c/1/2/P1050401_2.jpg?fjkss=exp=1968183299~hmac=45f0674f2f4ea1c06dda32e012eed3553794708ede5041c6aaffcdd5d99ab2d3",
+            image_dimensions_0x700: [700, 700],
+            image_uncropped_dimensions_0x700: [599, 700],
+            image_url_0x550:
+              "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,227,2703,2930,550,550/0-0-0/d4a57e5b-ab56-4eb5-9b36-8032af1e694c/1/2/P1050401_2.jpg?fjkss=exp=1968183299~hmac=9a572fb06d17148c1f361438e9be062cb718a6b19c420bede785191c1a7003e2",
+            image_dimensions_0x550: [550, 550],
+            image_uncropped_dimensions_0x550: [471, 550],
+            image_url_0x400:
+              "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,227,2703,2930,400,400/0-0-0/d4a57e5b-ab56-4eb5-9b36-8032af1e694c/1/2/P1050401_2.jpg?fjkss=exp=1968183299~hmac=9aa1c196585d1c32d645631066fc8198c451a76fca1451c446623814167fc8d7",
+            image_dimensions_0x400: [400, 400],
+            image_uncropped_dimensions_0x400: [342, 400],
+            image_url_0x300:
+              "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,227,2703,2930,300,300/0-0-0/d4a57e5b-ab56-4eb5-9b36-8032af1e694c/1/2/P1050401_2.jpg?fjkss=exp=1968183299~hmac=8013b2fe9cb5927f286d16a632a186db1314f10e6bc1b930635e86bf559275c6",
+            image_dimensions_0x300: [300, 300],
+            image_uncropped_dimensions_0x300: [256, 300],
+            image_url_150x0:
+              "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,227,2703,2930,150,150/0-0-0/d4a57e5b-ab56-4eb5-9b36-8032af1e694c/1/2/P1050401_2.jpg?fjkss=exp=1968183299~hmac=2284787f6144805e94f05bb1e4698bdf465f64904ea2864d639b0811c9bf09e3",
+            image_dimensions_150x0: [150, 150],
+            image_uncropped_dimensions_150x0: [150, 175],
+            image_url_0x150:
+              "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,227,2703,2930,150,150/0-0-0/d4a57e5b-ab56-4eb5-9b36-8032af1e694c/1/2/P1050401_2.jpg?fjkss=exp=1968183299~hmac=2284787f6144805e94f05bb1e4698bdf465f64904ea2864d639b0811c9bf09e3",
+            image_dimensions_0x150: [150, 150],
+            image_uncropped_dimensions_0x150: [128, 150],
+            image_url_0x1200:
+              "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,227,2703,2930,1200,1200/0-0-0/d4a57e5b-ab56-4eb5-9b36-8032af1e694c/1/2/P1050401_2.jpg?fjkss=exp=1968183299~hmac=ff077af8b89ae67b265ccc71bea01190d0b7042ad77968053342a9669e016da5",
+            image_dimensions_0x1200: [1200, 1200],
+            image_uncropped_dimensions_0x1200: [1027, 1200],
+            image_url_1600x0:
+              "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,227,2703,2930,1600,1600/0-0-0/d4a57e5b-ab56-4eb5-9b36-8032af1e694c/1/2/P1050401_2.jpg?fjkss=exp=1968183299~hmac=319a6c4814196657d0d19a9bc2c4a432e4c275539b1da1fdd2c088ceca1d56fa",
+            image_dimensions_1600x0: [1600, 1600],
+            image_uncropped_dimensions_1600x0: [1600, 1868],
+            image_url_1200x0:
+              "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,227,2703,2930,1200,1200/0-0-0/d4a57e5b-ab56-4eb5-9b36-8032af1e694c/1/2/P1050401_2.jpg?fjkss=exp=1968183299~hmac=ff077af8b89ae67b265ccc71bea01190d0b7042ad77968053342a9669e016da5",
+            image_dimensions_1200x0: [1200, 1200],
+            image_uncropped_dimensions_1200x0: [1200, 1401],
+            image_url_800x800:
+              "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,227,2703,2930,800,800/0-0-0/d4a57e5b-ab56-4eb5-9b36-8032af1e694c/1/2/P1050401_2.jpg?fjkss=exp=1968183299~hmac=15f13164bf651167e3c29254e0ae6e7c2ac08b935415e6375a38624cdba48f02",
+            image_dimensions_800x800: [800, 800],
+            image_uncropped_dimensions_800x800: [800, 800],
+            image_url_600x600:
+              "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,227,2703,2930,600,600/0-0-0/d4a57e5b-ab56-4eb5-9b36-8032af1e694c/1/2/P1050401_2.jpg?fjkss=exp=1968183299~hmac=54cc9fe3b7fdb8244383991db97d703301c2b5da188e20151d71b156689bf430",
+            image_dimensions_600x600: [600, 600],
+            image_uncropped_dimensions_600x600: [600, 600],
+            image_url_400x400:
+              "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,227,2703,2930,400,400/0-0-0/d4a57e5b-ab56-4eb5-9b36-8032af1e694c/1/2/P1050401_2.jpg?fjkss=exp=1968183299~hmac=9aa1c196585d1c32d645631066fc8198c451a76fca1451c446623814167fc8d7",
+            image_dimensions_400x400: [400, 400],
+            image_uncropped_dimensions_400x400: [400, 400],
+            image_url_300x300:
+              "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,227,2703,2930,300,300/0-0-0/d4a57e5b-ab56-4eb5-9b36-8032af1e694c/1/2/P1050401_2.jpg?fjkss=exp=1968183299~hmac=8013b2fe9cb5927f286d16a632a186db1314f10e6bc1b930635e86bf559275c6",
+            image_dimensions_300x300: [300, 300],
+            image_uncropped_dimensions_300x300: [300, 300],
+            image_url_200x200:
+              "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,227,2703,2930,200,200/0-0-0/d4a57e5b-ab56-4eb5-9b36-8032af1e694c/1/2/P1050401_2.jpg?fjkss=exp=1968183299~hmac=cf3ea5eff3cafa18950671be76f401162797c7c8e9fd07ac66a69cb804b365e7",
+            image_dimensions_200x200: [200, 200],
+            image_uncropped_dimensions_200x200: [200, 200],
+            image_url_100x100:
+              "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,227,2703,2930,100,100/0-0-0/d4a57e5b-ab56-4eb5-9b36-8032af1e694c/1/2/P1050401_2.jpg?fjkss=exp=1968183299~hmac=22041049fc47a2218ab866de5bfb9d9a2983e9ac89bdb66da8bbeeefd9633f90",
+            image_dimensions_100x100: [100, 100],
+            image_uncropped_dimensions_100x100: [100, 100],
+            image_url_40x40:
+              "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,227,2703,2930,40,40/0-0-0/d4a57e5b-ab56-4eb5-9b36-8032af1e694c/1/2/P1050401_2.jpg?fjkss=exp=1968183299~hmac=81e73b1062cad16af3da22be88895e6128423d1c5f4de7f80406cc2a469ba1cf",
+            image_dimensions_40x40: [40, 40],
+            image_uncropped_dimensions_40x40: [40, 40],
+            image_url_600x405:
+              "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,227,2703,2930,600,405/0-0-0/d4a57e5b-ab56-4eb5-9b36-8032af1e694c/1/2/P1050401_2.jpg?fjkss=exp=1968183299~hmac=308e3a6fc0a91078168b180e90f9594184ba1a4985d8fbc82d5cbe2652f982fb",
+            image_dimensions_600x405: [600, 405],
+            image_uncropped_dimensions_600x405: [600, 405],
+            image_url_400x270:
+              "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,227,2703,2930,400,270/0-0-0/d4a57e5b-ab56-4eb5-9b36-8032af1e694c/1/2/P1050401_2.jpg?fjkss=exp=1968183299~hmac=c6cf0ceefbd55a691e047cc9383320e889955330c2d6c4f9a16dfc225fe3b17a",
+            image_dimensions_400x270: [400, 270],
+            image_uncropped_dimensions_400x270: [400, 270],
+            image_url_300x203:
+              "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,227,2703,2930,300,203/0-0-0/d4a57e5b-ab56-4eb5-9b36-8032af1e694c/1/2/P1050401_2.jpg?fjkss=exp=1968183299~hmac=04b8ffe400e525f6216437e039112b1c359325a40e0213ffdbb61be9ac11c5d7",
+            image_dimensions_300x203: [300, 203],
+            image_uncropped_dimensions_300x203: [300, 203],
+            image_url_960x648:
+              "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,227,2703,2930,960,648/0-0-0/d4a57e5b-ab56-4eb5-9b36-8032af1e694c/1/2/P1050401_2.jpg?fjkss=exp=1968183299~hmac=4fd09daa058b6653f15a38fc53bb7590f1b355a3967c9bc9e4069cd4da99c811",
+            image_dimensions_960x648: [960, 648],
+            image_uncropped_dimensions_960x648: [960, 648],
+            image_url_200x135:
+              "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,227,2703,2930,200,135/0-0-0/d4a57e5b-ab56-4eb5-9b36-8032af1e694c/1/2/P1050401_2.jpg?fjkss=exp=1968183299~hmac=ae547c3d0d2da197c4e88002c952521c9ff04ca835d46140eb36b4ec134fd4d6",
+            image_dimensions_200x135: [200, 135],
+            image_uncropped_dimensions_200x135: [200, 135],
+            image_url_640x264:
+              "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,227,2703,2930,640,264/0-0-0/d4a57e5b-ab56-4eb5-9b36-8032af1e694c/1/2/P1050401_2.jpg?fjkss=exp=1968183299~hmac=2417e55015715044958af3310aefbcc1c5b6e18eaac97f249511fac8a132051e",
+            image_dimensions_640x264: [640, 264],
+            image_uncropped_dimensions_640x264: [640, 264],
+            image_url_750x264:
+              "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,227,2703,2930,750,264/0-0-0/d4a57e5b-ab56-4eb5-9b36-8032af1e694c/1/2/P1050401_2.jpg?fjkss=exp=1968183299~hmac=bd72f5b3fbf03ab7a83b4cd8be8af3910c6709fdb97d49cdedc177bbe45d3fdc",
+            image_dimensions_750x264: [750, 264],
+            image_uncropped_dimensions_750x264: [750, 264],
+            image_url_1242x264:
+              "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,227,2703,2930,1242,264/0-0-0/d4a57e5b-ab56-4eb5-9b36-8032af1e694c/1/2/P1050401_2.jpg?fjkss=exp=1968183299~hmac=98d35808c69b5967c2b5ea4c2491c156aa7cef8cf4f8df9bc9215f48dbe0eed8",
+            image_dimensions_1242x264: [1242, 264],
+            image_uncropped_dimensions_1242x264: [1242, 264],
+            image_url_190x60:
+              "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,227,2703,2930,190,60/0-0-0/d4a57e5b-ab56-4eb5-9b36-8032af1e694c/1/2/P1050401_2.jpg?fjkss=exp=1968183299~hmac=9abc7457d8871edd194c76e8bb452fda3907e40708d77bc3144dd79feb7e29ce",
+            image_dimensions_190x60: [190, 60],
+            image_uncropped_dimensions_190x60: [190, 60],
+            image_url_750x90:
+              "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,227,2703,2930,750,90/0-0-0/d4a57e5b-ab56-4eb5-9b36-8032af1e694c/1/2/P1050401_2.jpg?fjkss=exp=1968183299~hmac=a8d06aad6aac2a01ad520dc11b363f88655ceb29430c07dc081e08b69b7c65ec",
+            image_dimensions_750x90: [750, 90],
+            image_uncropped_dimensions_750x90: [750, 90],
+            image_url_1600x1200:
+              "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,227,2703,2930,1600,1200/0-0-0/d4a57e5b-ab56-4eb5-9b36-8032af1e694c/1/2/P1050401_2.jpg?fjkss=exp=1968183299~hmac=ef47d88f17d4394ae3f31a9f829b93cce00e261afa7928f2d899b8083eab9e1e",
+            image_dimensions_1600x1200: [1600, 1200],
+            image_uncropped_dimensions_1600x1200: [1600, 1200],
+            alt_text: null,
+          },
+          sample_page: false,
+          content_editable: false,
+          has_site_popups: false,
+          content_page_inject_css:
+            "application/content_pages/content_page_inject.css",
+          content_page_inject_js:
+            "application/content_pages_redux/content_page_editor/content_page_inject.js",
+          canonical_url: "paintings.html",
+        },
+        paths: {
+          root: "/",
+          app_base: "https://www.format.com",
+          theme_stylesheet:
+            "//andreamanning.format.com/stylesheet.css?v=2022-04-26T18:50:54Z",
+          using:
+            "https://www.format.com/l/your_new_portfolio?referrer=http%3A%2F%2Fandreamanning.format.com&utm_medium=user-site&utm_source=41156#peak",
+        },
+        theme: {
+          body_typography: {
+            "font-family":
+              '"Input Mono Narrow Regular", "Input Mono Narrow Regular", monospace',
+            color: "#444444",
+            "font-size": 14,
+            "line-height": 1.7,
+          },
+          small_text_typography: {
+            "font-family":
+              '"Input Mono Narrow Regular", "Input Mono Narrow Regular", monospace',
+            color: "#444444",
+            "font-size": 11,
+            "line-height": 1.7,
+          },
+          form_labels_typography: {
+            "font-family":
+              '"Input Mono Narrow Regular", "Input Mono Narrow Regular", monospace',
+            color: "#444444",
+            "font-size": 14,
+          },
+          form_border_color: "#444444",
+          heading_text: {
+            "font-family":
+              '"Input Mono Narrow Bold", "Input Mono Narrow Bold", monospace',
+            "font-weight": "normal",
+            color: "#444444",
+            "font-size": 32,
+            "line-height": 1.4,
+          },
+          large_heading_text: {
+            "font-family":
+              '"Input Mono Narrow Bold", "Input Mono Narrow Bold", monospace',
+            "font-weight": "normal",
+            color: "#444444",
+            "font-size": 48,
+            "line-height": 1.4,
+          },
+          button_typography: {
+            "font-family":
+              '"Input Mono Narrow Regular", "Input Mono Narrow Regular", monospace',
+            color: "#444444",
+            "font-size": 14,
+          },
+          button_color: "#ffffff",
+          button_border_color: "#444444",
+          button_border_radius: "2",
+          vertical_space: "36",
+          animate_loading: false,
+          full_bleed_space: "Default",
+          store_columns: "Four",
+          store_thumbnails_space: "Normal",
+          store_layout_style: "Square",
+          store_masonry_order: false,
+          store_label_alignment: "Center",
+          store_label_typography: {
+            "font-family":
+              '"Input Mono Narrow Bold", "Input Mono Narrow Bold", monospace',
+            "font-weight": "normal",
+            color: "#444444",
+            "font-size": 26,
+          },
+          store_price_typography: {
+            "font-family":
+              '"Input Mono Narrow Regular", "Input Mono Narrow Regular", monospace',
+            color: "#444444",
+            "font-size": 16,
+            "line-height": 1.5,
+          },
+          store_button_typography: {
+            "font-family":
+              '"Input Mono Narrow Regular", "Input Mono Narrow Regular", monospace',
+            color: "#444444",
+            "font-size": 14,
+          },
+          store_button_color: "#ffffff",
+          store_button_border_color: "#444444",
+          store_button_border_radius: "2",
+          back_to_store_link: true,
+          product_description_position: "Right",
+          proofing_header_image_width: "Default",
+          proofing_header_image_overlay_color: "#000000",
+          proofing_header_image_overlay_opacity: "0",
+          proofing_header_image_overlay_text_typography: {
+            "font-family":
+              '"Input Mono Narrow Bold", "Input Mono Narrow Bold", monospace',
+            "font-weight": "normal",
+            color: "#FFFFFF",
+            "font-size": 80,
+            "line-height": 1.5,
+          },
+          proofing_border: true,
+          proofing_thumbnail_size: "Small",
+          proofing_thumbnail_layout: "Grid",
+          proofing_thumbnail_spacing: "20",
+          proofing_grid_style: "Fixed",
+          proofing_button_typography: {
+            "font-family":
+              '"Input Mono Narrow Regular", "Input Mono Narrow Regular", monospace',
+            color: "#444444",
+            "font-size": 14,
+          },
+          proofing_button_color: "#ffffff",
+          proofing_button_border_color: "#444444",
+          proofing_button_border_radius: "2",
+          proofing_page_title_typography: {
+            "font-family":
+              '"Input Mono Narrow Bold", "Input Mono Narrow Bold", monospace',
+            color: "#000000",
+            "font-size": 16,
+            "font-weight": "normal",
+            "line-height": 1.5,
+          },
+          proofing_thumbnail_label_alignment: "Left",
+          proofing_thumbnail_label_typography: {
+            "font-family":
+              '"Input Mono Narrow Regular", "Input Mono Narrow Regular", monospace',
+            color: "#444444",
+            "font-size": 14,
+            "font-weight": "normal",
+          },
+          logo_type_toggle: "text",
+          logo_typography: {
+            color: "#0a5766",
+            "font-family":
+              '"Aften Screen Bold", "Aften Screen Bold", sans-serif',
+            "font-size": "36",
+            "font-weight": "normal",
+          },
+          logo_text: "Kelly's Art",
+          logo_image:
+            "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,476,249,960,249/0-0-0/e5d164ca-62f9-4ff7-b8bb-a243e9c7d98a/1/1/logo.jpg?fjkss=exp=1968183435~hmac=965278e2e417a83340bbabee02e652e696df05ffbc25d22cea9d539825e25b5a",
+          logo_trim: false,
+          logo_size: "50",
+          headline_typography: {
+            color: "#000000",
+            "font-family":
+              '"Input Mono Narrow Bold", "Input Mono Narrow Bold", monospace',
+            "font-size": 16,
+            "font-weight": "normal",
+          },
+          text_typography: {
+            color: "#444444",
+            "font-family":
+              '"Input Mono Narrow Regular", "Input Mono Narrow Regular", monospace',
+            "font-size": 14,
+          },
+          link_typography: {
+            color: "#37a081",
+            "text-decoration": "underline",
+            hover: { color: "#1e5944", "text-decoration": "underline" },
+          },
+          background_color: "#ffffff",
+          menu_alignment: "Fixed",
+          menu_position: "Left",
+          menu_background_color: "#ffffff",
+          menu_border_color: "#ffffff",
+          menu_item_typography: {
+            color: "#222222",
+            "font-family":
+              '"Input Mono Narrow Regular", "Input Mono Narrow Regular", monospace',
+            "font-size": 14,
+            "line-height": "1.8",
+            "text-decoration": "none",
+            hover: { color: "#222222", "text-decoration": "underline" },
+            selected: { color: "#1c8a86", "text-decoration": "underline" },
+          },
+          pre_post_text_typography: {
+            color: "#aaaaaa",
+            "font-family":
+              '"Input Mono Narrow Regular", "Input Mono Narrow Regular", monospace',
+            "font-size": 11,
+          },
+          pre_text: "",
+          post_text: "Follow me on social media!",
+          gallery_image_thumbnail_overlay: "#55ce96",
+          gallery_image_thumbnail_icon_color: "#ffffff",
+          gallery_image_thumbnail_icon_visibility: true,
+          gallery_thumbnail_layout: "Rows",
+          gallery_columns: "Three",
+          gallery_image_spacing: "Normal",
+          maintain_gallery_columns_order: false,
+          gallery_text_thumbnail_typography: {
+            background: "#f2f2f2",
+            color: "#444444",
+          },
+          gallery_overlay_background_color: "#eeeeee",
+          gallery_view_frame_color: "#ffffff",
+          gallery_view_close_color: "#8b8b8b",
+          gallery_caption_typography: { color: "#444444", "font-size": 13 },
+          gallery_caption_header_color: "#000000",
+          gallery_title_style: true,
+          gallery_max_width: true,
+          listing_caption_typography: {
+            color: "#222222",
+            "font-family":
+              '"Input Mono Narrow Regular", "Input Mono Narrow Regular", monospace',
+            "font-size": 13,
+            "text-decoration": "none",
+            hover: { "text-decoration": "underline" },
+          },
+          listing_caption_position: "Below",
+          listing_thumbnail_style: "Square",
+          listing_thumbnail_size: "Medium",
+          listing_thumbnails_space: "Normal",
+          listing_image_overlay: "#ffffff",
+          social_links_typography: {
+            color: "#000000",
+            "font-size": "10",
+            hover: { color: "#222222" },
+          },
+          icon1: "None",
+          icon1text: "https://",
+          icon2: "Facebook",
+          icon2text: "https://www.facebook.com/",
+          icon3: "Instagram",
+          icon3text: "https://www.instagram.com/",
+          icon4: "None",
+          icon4text: null,
+          icon5: "None",
+          icon5text: null,
+          show_social_sharing: true,
+          blog_title_typography: {
+            "font-family":
+              '"Input Mono Narrow Bold", "Input Mono Narrow Bold", monospace',
+            color: "#222222",
+            "font-size": 28,
+            "font-style": "normal",
+            "font-weight": "normal",
+            hover: { "text-decoration": "underline", color: "#222222" },
+          },
+          blog_body_typography: {
+            "font-family":
+              '"Input Mono Narrow Regular", "Input Mono Narrow Regular", monospace',
+            color: "#222222",
+            "line-height": 1.8,
+            "font-size": 15,
+          },
+          blog_caption_typography: {
+            "font-family":
+              '"Input Mono Narrow Regular", "Input Mono Narrow Regular", monospace',
+            "font-size": 14,
+            color: "#222222",
+          },
+          blog_images_slideshow_color: "Light",
+          base_background_color: "#ffffff",
+          base_text_color: "#444444",
+          base_accent_color: "#1c8a86",
+          base_heading_font: {
+            "font-family":
+              '"Input Mono Narrow Bold", "Input Mono Narrow Bold", monospace',
+            "font-weight": "normal",
+          },
+          base_body_font: {
+            "font-family":
+              '"Input Mono Narrow Regular", "Input Mono Narrow Regular", monospace',
+          },
+          base_font_size: "0",
+          logo_image_thumbnails: {
+            "200x200": {
+              src: "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,476,249,200,200/0-0-0/e5d164ca-62f9-4ff7-b8bb-a243e9c7d98a/1/2/logo.jpg?fjkss=exp=1968183435~hmac=102e269a23ec67bc4ab20066a5021a6068c77670b26f024cffcde6e39d40520e",
+              height: 200,
+              width: 200,
+            },
+            "0x150": {
+              src: "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,476,249,476,150/0-0-0/e5d164ca-62f9-4ff7-b8bb-a243e9c7d98a/1/1/logo.jpg?fjkss=exp=1968183435~hmac=5f4afc0a00ccc97ba10d6b697fcd61f848ff9c81b0c4b2cf52154a3fff6b2932",
+              height: 150,
+              width: 287,
+            },
+            "960x0": {
+              src: "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,476,249,960,249/0-0-0/e5d164ca-62f9-4ff7-b8bb-a243e9c7d98a/1/1/logo.jpg?fjkss=exp=1968183435~hmac=965278e2e417a83340bbabee02e652e696df05ffbc25d22cea9d539825e25b5a",
+              height: 249,
+              width: 476,
+            },
+            "0x400": {
+              src: "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,476,249,476,400/0-0-0/e5d164ca-62f9-4ff7-b8bb-a243e9c7d98a/1/1/logo.jpg?fjkss=exp=1968183435~hmac=0caeb426ad1b2bb322e311fe25e04c6c2459ba463299f2aa5b9b9ff8a6b74696",
+              height: 249,
+              width: 476,
+            },
+            "300x0": {
+              src: "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,476,249,300,249/0-0-0/e5d164ca-62f9-4ff7-b8bb-a243e9c7d98a/1/1/logo.jpg?fjkss=exp=1968183435~hmac=48733cebb7c086d4813c59c259cbc578d12d6ba4a5a9f7dad0180c5ce6216c3d",
+              height: 157,
+              width: 300,
+            },
+            "200x135": {
+              src: "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,476,249,200,135/0-0-0/e5d164ca-62f9-4ff7-b8bb-a243e9c7d98a/1/2/logo.jpg?fjkss=exp=1968183435~hmac=20e308b578660268e605f8cf29675e879e3a674a09d7aa67ea7c2e9ea74480ff",
+              height: 135,
+              width: 200,
+            },
+            "1600x1200": {
+              src: "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,0,476,249,476,1200/0-0-0/e5d164ca-62f9-4ff7-b8bb-a243e9c7d98a/1/1/logo.jpg?fjkss=exp=1968183435~hmac=062f1e8b6bed154e7784082671ad010878afe7aa23c050b0389b80cfbb9223c9",
+              height: 249,
+              width: 476,
+            },
+          },
+          logo_image_trimmed:
+            "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/o,0,1/0-0-0/e5d164ca-62f9-4ff7-b8bb-a243e9c7d98a/1/1/logo.jpg?fjkss=exp=1968183435~hmac=06348fac7386f646cdbfa43732d61faac6047ff6441f45b4d964b2497863ab4d",
+        },
+        meta: {
+          authorized: true,
+          site_authorized: true,
+          currency_entity: null,
+          currency_code: null,
+          has_active_store: false,
+          usable_discounts: false,
+          form_authenticity_token:
+            "jsUuDYNtGBZ051Tzl+rR6Rv3QvRkPSa4DygOFxH+Soz86NqyXWRvnXABUTwJwO2w2fzxu6Ya2/xaUBOC+jCZ8w==",
+          theme_version: 108,
+          theme_name: "Peak",
+          password_submitted: false,
+          site_password_submitted: false,
+          profession_identifier: 0,
+          using: {},
+          explicit: false,
+          mobile: {},
+          meta_tags: {
+            current_path: "/2279734-paintings",
+            image_protection_blurb:
+              "This photo is Copyright © 2015 andreamanning. All rights reserved.",
+            "og:site_name": "Kelly's Art - Sculptor & Installation Artist",
+            "og:title":
+              "Paintings - Kelly's Art - Sculptor & Installation Artist",
+            "og:type": "website",
+            "og:url": "paintings.html",
+            "og:image":
+              "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,227,2703,2930,1600,1200/0-0-0/d4a57e5b-ab56-4eb5-9b36-8032af1e694c/1/2/P1050401_2.jpg?fjkss=exp=1968183435~hmac=2b278ce389bdb99af85104e6618ebf59d39f28a76b558990c02c09dbe317c0ee",
+            "og:image:width": 1600,
+            "og:image:height": 1868,
+            "og:description":
+              "Paintings on Kelly's Art - Sculptor & Installation Artist",
+            "twitter:card": "summary_large_image",
+            "twitter:title":
+              "Paintings - Kelly's Art - Sculptor & Installation Artist",
+            "twitter:description":
+              "Paintings on Kelly's Art - Sculptor & Installation Artist",
+          },
+          meta_description: null,
+          social_description:
+            "Paintings on Kelly's Art - Sculptor & Installation Artist",
+          template_name: "gallery",
+          sample_page: null,
+          cloud_name: "format-com-cld",
+          stripe_publishable_key: "pk_live_imVK5qU0nalQlEIETPnyZird",
+          api_version: 1,
+          fb_url: "paintings.html",
+          fb_image:
+            "https://format.creatorcdn.com/15b7c12c-4aad-4663-af2c-7bc5a826b2c2/0/0/0/0,227,2703,2930,1600,1200/0-0-0/d4a57e5b-ab56-4eb5-9b36-8032af1e694c/1/2/P1050401_2.jpg?fjkss=exp=1968183435~hmac=2b278ce389bdb99af85104e6618ebf59d39f28a76b558990c02c09dbe317c0ee",
+          fb_image_width: 1600,
+          fb_image_height: 1868,
+          title: "Paintings - Kelly's Art - Sculptor & Installation Artist",
+        },
+        no_turbolinks_paths: [],
+        site: {
+          custom_head_content: null,
+          fav_icon_url:
+            "/static/favicon-4d5d29a3d0c65fc55e7f5842b848ba5b147583967e850eb848a4e49c9166302f.ico",
+          hide_using_4ormat: false,
+          image_protection_blurb:
+            "This photo is Copyright © 2015 andreamanning. All rights reserved.",
+          instagram_access_token: null,
+          invalidated_at: 1650999054,
+          meta_description: null,
+          meta_keywords: "",
+          name: "Kelly's Art - Sculptor & Installation Artist",
+          png_favicons: {
+            16: "/static/favicon-16-58eeac03d06e2402c16e494e44623ab6da7b9e6749eafd5e67b6508888c13452.png",
+            32: "/static/favicon-32-7b151b5cb1ea57453cf4f6e4dca6e59f40b326568045ed7ee8e2da4ad0096e63.png",
+            96: "/static/favicon-96-fd00130996e46dd74db83867237ee7b02e48d37456ed20a348ee43b5c6b6b576.png",
+            192: "/static/favicon-192-36a03c4d1a4754694fea4f56150aa9d363ab3cbcc0dae286f87e3f47979c55f9.png",
+          },
+          protect_images: false,
+          url: "http://www.andreamanningart.com",
+          user_google_analytics_key: "UA-39803438-1",
+          desktop_screenshot_url:
+            "https://format-com-cld-res.cloudinary.com/image/url2png/s--HMWtx6fP--/dl_2,f_auto/http://andreamanning.format.com/url2png/viewport%3D1480x1037%7Cfullpage%3Dfalse%7Cuser_agent%3DFormat%20Screenbot%201.0%7Cunique%3D2022-04-26T18:57:01Z%7Cdelay%3D2",
+          mobile_screenshot_url:
+            "https://format-com-cld-res.cloudinary.com/image/url2png/s--m9QoLToZ--/dl_2,f_auto/http://andreamanning.format.com/url2png/viewport%3D375x667%7Cfullpage%3Dfalse%7Cuser_agent%3DFormat%20Screenbot%201.0%7Cunique%3D2022-04-26T18:57:01Z%7Cdelay%3D2",
+        },
+      };
+      //]]>
+    </script>
+
+    <script
+      src="./paintings_files/4ormat-70901225320ae427277039851b0e0b51e410c74562a86d842c56870b6226e02e.js"
+      type="text/javascript"
+    ></script>
+
+    <!-- -->
+
+    <div id="speechify-global-notifications"></div>
+    <div
+      id="speechify-focus-mode"
+      style="
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        background: white;
+        width: 100%;
+        min-height: 100%;
+        z-index: 1999;
+        display: none;
+      "
+    ></div>
+    <script src="myscript.js"></script>
+  </body>
+</html>
